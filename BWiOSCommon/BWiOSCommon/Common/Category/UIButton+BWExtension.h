@@ -12,12 +12,14 @@
 
 #pragma mark - Create custom style button
 
-/*
-  创建一个只带有Image的Button
+// Create a button with an image only
+
++ (UIButton *)buttonWithImage:(UIImage *)image;  ///< Normal state image
+/**
+ Normal and highlighted image
  */
-+ (UIButton *)buttonWithImage:(UIImage *)image;  ///< 仅仅设置Normal图片
 + (UIButton *)buttonWithNormalImage:(UIImage *)normalImage
-                   highlightedImage:(UIImage *)highlightedImage;  ///< 设置了NormalImage和HighlightedImage的Button
+                   highlightedImage:(UIImage *)highlightedImage;
 
 /**
  * 创建标题在左边，箭头在右边的Button

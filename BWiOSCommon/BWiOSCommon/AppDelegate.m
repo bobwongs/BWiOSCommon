@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "BWHomeVC.h"
 
 @interface AppDelegate ()
 

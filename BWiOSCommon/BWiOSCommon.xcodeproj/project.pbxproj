@@ -33,6 +33,10 @@
 		B452B9031DEEC57400CA97FE /* icon_arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B452B9011DEEC57400CA97FE /* icon_arrow_right@2x.png */; };
 		B452B9041DEEC57400CA97FE /* icon_arrow_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B452B9021DEEC57400CA97FE /* icon_arrow_right@3x.png */; };
 		B452B9071DEEC63300CA97FE /* UIImage+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9061DEEC63300CA97FE /* UIImage+BWExtension.m */; };
+		B452B90E1DEECF3900CA97FE /* BWImageAndTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B90D1DEECF3900CA97FE /* BWImageAndTitleButton.m */; };
+		B452B9141DEED06600CA97FE /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9131DEED06600CA97FE /* BWBaseViewController.m */; };
+		B452B9171DEED09B00CA97FE /* BWHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9161DEED09B00CA97FE /* BWHomeVC.m */; };
+		B452B91A1DEED0A800CA97FE /* BWResearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9191DEED0A800CA97FE /* BWResearchVC.m */; };
 		BA64B521D5564DD533FE189E /* libPods-BWiOSCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD628FF903B6604FE5D293F /* libPods-BWiOSCommon.a */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +125,14 @@
 		B452B9021DEEC57400CA97FE /* icon_arrow_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow_right@3x.png"; sourceTree = "<group>"; };
 		B452B9051DEEC63300CA97FE /* UIImage+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BWExtension.h"; sourceTree = "<group>"; };
 		B452B9061DEEC63300CA97FE /* UIImage+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BWExtension.m"; sourceTree = "<group>"; };
+		B452B90C1DEECF3900CA97FE /* BWImageAndTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWImageAndTitleButton.h; sourceTree = "<group>"; };
+		B452B90D1DEECF3900CA97FE /* BWImageAndTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWImageAndTitleButton.m; sourceTree = "<group>"; };
+		B452B9121DEED06600CA97FE /* BWBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWBaseViewController.h; sourceTree = "<group>"; };
+		B452B9131DEED06600CA97FE /* BWBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWBaseViewController.m; sourceTree = "<group>"; };
+		B452B9151DEED09B00CA97FE /* BWHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHomeVC.h; sourceTree = "<group>"; };
+		B452B9161DEED09B00CA97FE /* BWHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeVC.m; sourceTree = "<group>"; };
+		B452B9181DEED0A800CA97FE /* BWResearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWResearchVC.h; sourceTree = "<group>"; };
+		B452B9191DEED0A800CA97FE /* BWResearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWResearchVC.m; sourceTree = "<group>"; };
 		C7EB57AD112B3AB124CFF289 /* Pods-BWiOSCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommon/Pods-BWiOSCommon.release.xcconfig"; sourceTree = "<group>"; };
 		CF1DDDEE24B3660A576A9CE9 /* Pods-BWiOSCommonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonTests/Pods-BWiOSCommonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F54677D25AC6F8ECF0297D94 /* libPods-BWiOSCommonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSCommonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -254,6 +266,7 @@
 				B452B8941DEE87C900CA97FE /* Category */,
 				B452B8951DEE87C900CA97FE /* Class */,
 				B452B8971DEE87C900CA97FE /* Utility */,
+				B452B9081DEECF1400CA97FE /* View */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -328,6 +341,9 @@
 		B452B89A1DEE87C900CA97FE /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				B452B90F1DEED04F00CA97FE /* BaseVC */,
+				B452B9101DEED04F00CA97FE /* Home */,
+				B452B9111DEED04F00CA97FE /* Research */,
 			);
 			path = MVC;
 			sourceTree = "<group>";
@@ -460,6 +476,42 @@
 				B452B9021DEEC57400CA97FE /* icon_arrow_right@3x.png */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		B452B9081DEECF1400CA97FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B452B90C1DEECF3900CA97FE /* BWImageAndTitleButton.h */,
+				B452B90D1DEECF3900CA97FE /* BWImageAndTitleButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B452B90F1DEED04F00CA97FE /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				B452B9121DEED06600CA97FE /* BWBaseViewController.h */,
+				B452B9131DEED06600CA97FE /* BWBaseViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		B452B9101DEED04F00CA97FE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B452B9151DEED09B00CA97FE /* BWHomeVC.h */,
+				B452B9161DEED09B00CA97FE /* BWHomeVC.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B452B9111DEED04F00CA97FE /* Research */ = {
+			isa = PBXGroup;
+			children = (
+				B452B9181DEED0A800CA97FE /* BWResearchVC.h */,
+				B452B9191DEED0A800CA97FE /* BWResearchVC.m */,
+			);
+			path = Research;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -752,10 +804,14 @@
 				B452B9071DEEC63300CA97FE /* UIImage+BWExtension.m in Sources */,
 				B452B8EF1DEEBD3900CA97FE /* UIColor+BWExtension.m in Sources */,
 				B452B8F61DEEBD5B00CA97FE /* NSString+BWExtension.m in Sources */,
+				B452B90E1DEECF3900CA97FE /* BWImageAndTitleButton.m in Sources */,
 				B452B8F91DEEBF5600CA97FE /* UIViewController+BWExtension.m in Sources */,
+				B452B91A1DEED0A800CA97FE /* BWResearchVC.m in Sources */,
 				B452B8DD1DEE8C9600CA97FE /* BMDateSettingView.m in Sources */,
+				B452B9171DEED09B00CA97FE /* BWHomeVC.m in Sources */,
 				B452B8D11DEE8C5500CA97FE /* BWUICommon.m in Sources */,
 				B452B8F01DEEBD3900CA97FE /* UIImageView+BWExtension.m in Sources */,
+				B452B9141DEED06600CA97FE /* BWBaseViewController.m in Sources */,
 				B452B8F11DEEBD3900CA97FE /* UILabel+BWExtension.m in Sources */,
 				B452B8651DEE86F900CA97FE /* AppDelegate.m in Sources */,
 				B452B8621DEE86F900CA97FE /* main.m in Sources */,

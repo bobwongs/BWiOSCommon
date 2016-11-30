@@ -8,6 +8,9 @@
 
 #import "BWCodeSnippetsController.h"
 
+/*
+ Protocol Code Snippets
+ */
 @interface BWCodeSnippetsController () <UITableViewDataSource, UITableViewDelegate>
 
 @end
