@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		089E39D9F8A99D0B2129B732 /* libPods-BWiOSCommonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F54677D25AC6F8ECF0297D94 /* libPods-BWiOSCommonUITests.a */; };
+		69FE2A5CB62908D4FCB2FFBD /* libPods-BWiOSCommonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEF60A1165236B5E9AE8B37 /* libPods-BWiOSCommonTests.a */; };
 		B452B8621DEE86F900CA97FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8611DEE86F900CA97FE /* main.m */; };
 		B452B8651DEE86F900CA97FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8641DEE86F900CA97FE /* AppDelegate.m */; };
 		B452B86D1DEE86F900CA97FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B452B86C1DEE86F900CA97FE /* Assets.xcassets */; };
@@ -19,6 +21,17 @@
 		B452B8BE1DEE8B4F00CA97FE /* UIImageView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8B71DEE8B4F00CA97FE /* UIImageView+BWExtension.m */; };
 		B452B8BF1DEE8B4F00CA97FE /* UITextField+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8B91DEE8B4F00CA97FE /* UITextField+BWExtension.m */; };
 		B452B8C01DEE8B4F00CA97FE /* UIView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8BB1DEE8B4F00CA97FE /* UIView+BWExtension.m */; };
+		B452B8CD1DEE8C5500CA97FE /* BWAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8C31DEE8C5500CA97FE /* BWAlertUtil.m */; };
+		B452B8CE1DEE8C5500CA97FE /* BWAlertUtil.md in Sources */ = {isa = PBXBuildFile; fileRef = B452B8C41DEE8C5500CA97FE /* BWAlertUtil.md */; };
+		B452B8CF1DEE8C5500CA97FE /* BWDataCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8C71DEE8C5500CA97FE /* BWDataCommon.m */; };
+		B452B8D01DEE8C5500CA97FE /* BWDataCommon.md in Sources */ = {isa = PBXBuildFile; fileRef = B452B8C81DEE8C5500CA97FE /* BWDataCommon.md */; };
+		B452B8D11DEE8C5500CA97FE /* BWUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8CB1DEE8C5500CA97FE /* BWUICommon.m */; };
+		B452B8D21DEE8C5500CA97FE /* BWUICommon.md in Sources */ = {isa = PBXBuildFile; fileRef = B452B8CC1DEE8C5500CA97FE /* BWUICommon.md */; };
+		B452B8DC1DEE8C9600CA97FE /* BMDatePickAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8D51DEE8C9500CA97FE /* BMDatePickAlertView.m */; };
+		B452B8DD1DEE8C9600CA97FE /* BMDateSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8D71DEE8C9500CA97FE /* BMDateSettingView.m */; };
+		B452B8DE1DEE8C9600CA97FE /* BMDateSettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B452B8D81DEE8C9500CA97FE /* BMDateSettingView.xib */; };
+		B452B8DF1DEE8C9600CA97FE /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8DB1DEE8C9600CA97FE /* UIAlertView+Blocks.m */; };
+		BA64B521D5564DD533FE189E /* libPods-BWiOSCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD628FF903B6604FE5D293F /* libPods-BWiOSCommon.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +52,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DD628FF903B6604FE5D293F /* libPods-BWiOSCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSCommon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8820B17B3E73FCB7671642 /* Pods-BWiOSCommon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommon/Pods-BWiOSCommon.debug.xcconfig"; sourceTree = "<group>"; };
+		3C17191C9854F3C31DC72397 /* Pods-BWiOSCommonUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonUITests/Pods-BWiOSCommonUITests.release.xcconfig"; sourceTree = "<group>"; };
+		487153065B701AADAA193281 /* Pods-BWiOSCommonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonUITests/Pods-BWiOSCommonUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DEF60A1165236B5E9AE8B37 /* libPods-BWiOSCommonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSCommonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FC03C7002CC5E586DD5D08 /* Pods-BWiOSCommonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonTests/Pods-BWiOSCommonTests.release.xcconfig"; sourceTree = "<group>"; };
 		B452B85D1DEE86F900CA97FE /* BWiOSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWiOSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B452B8611DEE86F900CA97FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B452B8631DEE86F900CA97FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,6 +93,26 @@
 		B452B8B91DEE8B4F00CA97FE /* UITextField+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BWExtension.m"; sourceTree = "<group>"; };
 		B452B8BA1DEE8B4F00CA97FE /* UIView+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BWExtension.h"; sourceTree = "<group>"; };
 		B452B8BB1DEE8B4F00CA97FE /* UIView+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8C21DEE8C5500CA97FE /* BWAlertUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWAlertUtil.h; sourceTree = "<group>"; };
+		B452B8C31DEE8C5500CA97FE /* BWAlertUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWAlertUtil.m; sourceTree = "<group>"; };
+		B452B8C41DEE8C5500CA97FE /* BWAlertUtil.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BWAlertUtil.md; sourceTree = "<group>"; };
+		B452B8C61DEE8C5500CA97FE /* BWDataCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWDataCommon.h; sourceTree = "<group>"; };
+		B452B8C71DEE8C5500CA97FE /* BWDataCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWDataCommon.m; sourceTree = "<group>"; };
+		B452B8C81DEE8C5500CA97FE /* BWDataCommon.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BWDataCommon.md; sourceTree = "<group>"; };
+		B452B8CA1DEE8C5500CA97FE /* BWUICommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWUICommon.h; sourceTree = "<group>"; };
+		B452B8CB1DEE8C5500CA97FE /* BWUICommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWUICommon.m; sourceTree = "<group>"; };
+		B452B8CC1DEE8C5500CA97FE /* BWUICommon.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BWUICommon.md; sourceTree = "<group>"; };
+		B452B8D41DEE8C9500CA97FE /* BMDatePickAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDatePickAlertView.h; sourceTree = "<group>"; };
+		B452B8D51DEE8C9500CA97FE /* BMDatePickAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDatePickAlertView.m; sourceTree = "<group>"; };
+		B452B8D61DEE8C9500CA97FE /* BMDateSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDateSettingView.h; sourceTree = "<group>"; };
+		B452B8D71DEE8C9500CA97FE /* BMDateSettingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDateSettingView.m; sourceTree = "<group>"; };
+		B452B8D81DEE8C9500CA97FE /* BMDateSettingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMDateSettingView.xib; sourceTree = "<group>"; };
+		B452B8DA1DEE8C9600CA97FE /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
+		B452B8DB1DEE8C9600CA97FE /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
+		B452B8E01DEE8CD200CA97FE /* BWMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
+		C7EB57AD112B3AB124CFF289 /* Pods-BWiOSCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommon/Pods-BWiOSCommon.release.xcconfig"; sourceTree = "<group>"; };
+		CF1DDDEE24B3660A576A9CE9 /* Pods-BWiOSCommonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonTests/Pods-BWiOSCommonTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F54677D25AC6F8ECF0297D94 /* libPods-BWiOSCommonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSCommonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA64B521D5564DD533FE189E /* libPods-BWiOSCommon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +128,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69FE2A5CB62908D4FCB2FFBD /* libPods-BWiOSCommonTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,12 +136,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				089E39D9F8A99D0B2129B732 /* libPods-BWiOSCommonUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05722E70DE88A4421C920ECE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD628FF903B6604FE5D293F /* libPods-BWiOSCommon.a */,
+				7DEF60A1165236B5E9AE8B37 /* libPods-BWiOSCommonTests.a */,
+				F54677D25AC6F8ECF0297D94 /* libPods-BWiOSCommonUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7110C83671A3CE41A3B91ED0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F8820B17B3E73FCB7671642 /* Pods-BWiOSCommon.debug.xcconfig */,
+				C7EB57AD112B3AB124CFF289 /* Pods-BWiOSCommon.release.xcconfig */,
+				CF1DDDEE24B3660A576A9CE9 /* Pods-BWiOSCommonTests.debug.xcconfig */,
+				82FC03C7002CC5E586DD5D08 /* Pods-BWiOSCommonTests.release.xcconfig */,
+				487153065B701AADAA193281 /* Pods-BWiOSCommonUITests.debug.xcconfig */,
+				3C17191C9854F3C31DC72397 /* Pods-BWiOSCommonUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B452B8541DEE86F900CA97FE = {
 			isa = PBXGroup;
 			children = (
@@ -108,6 +173,8 @@
 				B452B8791DEE86F900CA97FE /* BWiOSCommonTests */,
 				B452B8841DEE86F900CA97FE /* BWiOSCommonUITests */,
 				B452B85E1DEE86F900CA97FE /* Products */,
+				7110C83671A3CE41A3B91ED0 /* Pods */,
+				05722E70DE88A4421C920ECE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,6 +265,7 @@
 		B452B8961DEE87C900CA97FE /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				B452B8E01DEE8CD200CA97FE /* BWMacroDefinition.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -205,6 +273,9 @@
 		B452B8971DEE87C900CA97FE /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				B452B8C11DEE8C5500CA97FE /* AlertCommon */,
+				B452B8C51DEE8C5500CA97FE /* DataCommon */,
+				B452B8C91DEE8C5500CA97FE /* UICommon */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -219,6 +290,8 @@
 		B452B8991DEE87C900CA97FE /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				B452B8D31DEE8C9500CA97FE /* BMDatePickView */,
+				B452B8D91DEE8C9500CA97FE /* UIAlertView+Blocks */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -294,6 +367,57 @@
 			path = CodeSnippets;
 			sourceTree = "<group>";
 		};
+		B452B8C11DEE8C5500CA97FE /* AlertCommon */ = {
+			isa = PBXGroup;
+			children = (
+				B452B8C21DEE8C5500CA97FE /* BWAlertUtil.h */,
+				B452B8C31DEE8C5500CA97FE /* BWAlertUtil.m */,
+				B452B8C41DEE8C5500CA97FE /* BWAlertUtil.md */,
+			);
+			path = AlertCommon;
+			sourceTree = "<group>";
+		};
+		B452B8C51DEE8C5500CA97FE /* DataCommon */ = {
+			isa = PBXGroup;
+			children = (
+				B452B8C61DEE8C5500CA97FE /* BWDataCommon.h */,
+				B452B8C71DEE8C5500CA97FE /* BWDataCommon.m */,
+				B452B8C81DEE8C5500CA97FE /* BWDataCommon.md */,
+			);
+			path = DataCommon;
+			sourceTree = "<group>";
+		};
+		B452B8C91DEE8C5500CA97FE /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				B452B8CA1DEE8C5500CA97FE /* BWUICommon.h */,
+				B452B8CB1DEE8C5500CA97FE /* BWUICommon.m */,
+				B452B8CC1DEE8C5500CA97FE /* BWUICommon.md */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
+		B452B8D31DEE8C9500CA97FE /* BMDatePickView */ = {
+			isa = PBXGroup;
+			children = (
+				B452B8D41DEE8C9500CA97FE /* BMDatePickAlertView.h */,
+				B452B8D51DEE8C9500CA97FE /* BMDatePickAlertView.m */,
+				B452B8D61DEE8C9500CA97FE /* BMDateSettingView.h */,
+				B452B8D71DEE8C9500CA97FE /* BMDateSettingView.m */,
+				B452B8D81DEE8C9500CA97FE /* BMDateSettingView.xib */,
+			);
+			path = BMDatePickView;
+			sourceTree = "<group>";
+		};
+		B452B8D91DEE8C9500CA97FE /* UIAlertView+Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				B452B8DA1DEE8C9600CA97FE /* UIAlertView+Blocks.h */,
+				B452B8DB1DEE8C9600CA97FE /* UIAlertView+Blocks.m */,
+			);
+			path = "UIAlertView+Blocks";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -301,9 +425,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B452B88A1DEE86F900CA97FE /* Build configuration list for PBXNativeTarget "BWiOSCommon" */;
 			buildPhases = (
+				67D52918AC0ABC5839F15AAD /* [CP] Check Pods Manifest.lock */,
 				B452B8591DEE86F900CA97FE /* Sources */,
 				B452B85A1DEE86F900CA97FE /* Frameworks */,
 				B452B85B1DEE86F900CA97FE /* Resources */,
+				AFD39A8F79625E673ECE5127 /* [CP] Embed Pods Frameworks */,
+				9504096B92AD2B58329674BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -318,9 +445,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B452B88D1DEE86F900CA97FE /* Build configuration list for PBXNativeTarget "BWiOSCommonTests" */;
 			buildPhases = (
+				B3CB90D6E059DF49094F6721 /* [CP] Check Pods Manifest.lock */,
 				B452B8721DEE86F900CA97FE /* Sources */,
 				B452B8731DEE86F900CA97FE /* Frameworks */,
 				B452B8741DEE86F900CA97FE /* Resources */,
+				15E042098CAD05014E593AFC /* [CP] Embed Pods Frameworks */,
+				479555CA54B6C38642D07814 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,9 +466,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B452B8901DEE86F900CA97FE /* Build configuration list for PBXNativeTarget "BWiOSCommonUITests" */;
 			buildPhases = (
+				0D5EB3CEFF336419BE106386 /* [CP] Check Pods Manifest.lock */,
 				B452B87D1DEE86F900CA97FE /* Sources */,
 				B452B87E1DEE86F900CA97FE /* Frameworks */,
 				B452B87F1DEE86F900CA97FE /* Resources */,
+				07BBCAC3E06757AE807D28D7 /* [CP] Embed Pods Frameworks */,
+				92F86BB90C20DA8F2544948B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -404,6 +537,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B452B8701DEE86F900CA97FE /* LaunchScreen.storyboard in Resources */,
+				B452B8DE1DEE8C9600CA97FE /* BMDateSettingView.xib in Resources */,
 				B452B86D1DEE86F900CA97FE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,18 +558,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07BBCAC3E06757AE807D28D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWiOSCommonUITests/Pods-BWiOSCommonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D5EB3CEFF336419BE106386 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		15E042098CAD05014E593AFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWiOSCommonTests/Pods-BWiOSCommonTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		479555CA54B6C38642D07814 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWiOSCommonTests/Pods-BWiOSCommonTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D52918AC0ABC5839F15AAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92F86BB90C20DA8F2544948B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWiOSCommonUITests/Pods-BWiOSCommonUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9504096B92AD2B58329674BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWiOSCommon/Pods-BWiOSCommon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD39A8F79625E673ECE5127 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BWiOSCommon/Pods-BWiOSCommon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3CB90D6E059DF49094F6721 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B452B8591DEE86F900CA97FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B452B8DF1DEE8C9600CA97FE /* UIAlertView+Blocks.m in Sources */,
+				B452B8CE1DEE8C5500CA97FE /* BWAlertUtil.md in Sources */,
 				B452B8BC1DEE8B4F00CA97FE /* UIButton+BWExtension.m in Sources */,
+				B452B8DC1DEE8C9600CA97FE /* BMDatePickAlertView.m in Sources */,
+				B452B8D21DEE8C5500CA97FE /* BWUICommon.md in Sources */,
+				B452B8DD1DEE8C9600CA97FE /* BMDateSettingView.m in Sources */,
+				B452B8D11DEE8C5500CA97FE /* BWUICommon.m in Sources */,
 				B452B8C01DEE8B4F00CA97FE /* UIView+BWExtension.m in Sources */,
 				B452B8651DEE86F900CA97FE /* AppDelegate.m in Sources */,
 				B452B8621DEE86F900CA97FE /* main.m in Sources */,
+				B452B8CD1DEE8C5500CA97FE /* BWAlertUtil.m in Sources */,
 				B452B8BD1DEE8B4F00CA97FE /* UIColor+BWExtension.m in Sources */,
 				B452B8A21DEE885300CA97FE /* UILabel+BWExtension.m in Sources */,
 				B452B8BE1DEE8B4F00CA97FE /* UIImageView+BWExtension.m in Sources */,
+				B452B8CF1DEE8C5500CA97FE /* BWDataCommon.m in Sources */,
+				B452B8D01DEE8C5500CA97FE /* BWDataCommon.md in Sources */,
 				B452B8BF1DEE8B4F00CA97FE /* UITextField+BWExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -573,6 +854,7 @@
 		};
 		B452B88B1DEE86F900CA97FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F8820B17B3E73FCB7671642 /* Pods-BWiOSCommon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
@@ -587,6 +869,7 @@
 		};
 		B452B88C1DEE86F900CA97FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7EB57AD112B3AB124CFF289 /* Pods-BWiOSCommon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V3E8GUFW32;
@@ -601,6 +884,7 @@
 		};
 		B452B88E1DEE86F900CA97FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF1DDDEE24B3660A576A9CE9 /* Pods-BWiOSCommonTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = V3E8GUFW32;
@@ -614,6 +898,7 @@
 		};
 		B452B88F1DEE86F900CA97FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82FC03C7002CC5E586DD5D08 /* Pods-BWiOSCommonTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = V3E8GUFW32;
@@ -627,6 +912,7 @@
 		};
 		B452B8911DEE86F900CA97FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 487153065B701AADAA193281 /* Pods-BWiOSCommonUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWiOSCommonUITests/Info.plist;
@@ -639,6 +925,7 @@
 		};
 		B452B8921DEE86F900CA97FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C17191C9854F3C31DC72397 /* Pods-BWiOSCommonUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = V3E8GUFW32;
 				INFOPLIST_FILE = BWiOSCommonUITests/Info.plist;
