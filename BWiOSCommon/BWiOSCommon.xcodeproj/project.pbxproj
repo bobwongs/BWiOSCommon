@@ -30,7 +30,6 @@
 		B452B8F31DEEBD3900CA97FE /* UIView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8ED1DEEBD3900CA97FE /* UIView+BWExtension.m */; };
 		B452B8F61DEEBD5B00CA97FE /* NSString+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8F51DEEBD5B00CA97FE /* NSString+BWExtension.m */; };
 		B452B8F91DEEBF5600CA97FE /* UIViewController+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8F81DEEBF5600CA97FE /* UIViewController+BWExtension.m */; };
-		B452B8FF1DEEC21F00CA97FE /* YYCategories.zip in Resources */ = {isa = PBXBuildFile; fileRef = B452B8FE1DEEC21F00CA97FE /* YYCategories.zip */; };
 		BA64B521D5564DD533FE189E /* libPods-BWiOSCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD628FF903B6604FE5D293F /* libPods-BWiOSCommon.a */; };
 /* End PBXBuildFile section */
 
@@ -563,7 +562,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B452B8701DEE86F900CA97FE /* LaunchScreen.storyboard in Resources */,
-				B452B8FF1DEEC21F00CA97FE /* YYCategories.zip in Resources */,
 				B452B8DE1DEE8C9600CA97FE /* BMDateSettingView.xib in Resources */,
 				B452B86D1DEE86F900CA97FE /* Assets.xcassets in Resources */,
 			);
