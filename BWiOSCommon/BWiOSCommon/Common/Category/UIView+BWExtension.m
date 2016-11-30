@@ -10,7 +10,7 @@
 
 @implementation UIView (BWExtension)
 
-#pragma mark - Frame这一部分可以使用YY的扩展比较好
+#pragma mark - Reframe view
 
 - (void)bw_reframeX:(CGFloat)x {
     CGRect frame = self.frame;
@@ -42,13 +42,41 @@
     self.frame = frame;
 }
 
-#pragma mark - Line View
+#pragma mark - Line
 
 + (UIView *)lineViewDefaultColor
 {
     UIView *view = [[UIView alloc] init];
-    view.backgroundColor = [UIColor grayColor];  // 设置线色
+    view.backgroundColor = [UIColor grayColor];  // Set the line color
     return view;
+}
+
+- (void)bm_addLineInBottom {
+    UIView *viewLine = [UIView lineViewDefaultColor];
+    [self addSubview:viewLine];
+    
+    // Wait to set constraints
+    
+//    [viewLine mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(0);
+//        make.right.mas_equalTo(0);
+//        make.bottom.mas_equalTo(0);
+//        make.height.mas_equalTo(0.5);
+//    }];
+}
+
+- (void)bm_addLineInBottomWith10LeftOffset {
+    UIView *viewLine = [UIView lineViewDefaultColor];
+    [self addSubview:viewLine];
+    
+    // Wait to set constraints
+    
+//    [viewLine mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(10);
+//        make.right.mas_equalTo(0);
+//        make.bottom.mas_equalTo(0);
+//        make.height.mas_equalTo(0.5);
+//    }];
 }
 
 @end

@@ -8,7 +8,6 @@
 
 #import "UIButton+BWExtension.h"
 #import <objc/runtime.h>
-#import "Masonry.h"
 
 @implementation UIButton (BWExtension)
 
@@ -51,17 +50,17 @@
     imageViewArrow.contentMode = UIViewContentModeScaleAspectFit;
     [button addSubview:imageViewArrow];
     
-    [imageViewArrow mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.mas_equalTo(0);
-        make.width.mas_equalTo(8);
-        make.centerY.mas_equalTo(button.mas_centerY);
-        make.height.mas_equalTo(13);
-    }];
-    [labelTitle mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.mas_equalTo(imageViewArrow.mas_left).offset(-8);
-        make.left.mas_equalTo(button.mas_left);
-        make.top.bottom.mas_equalTo(0);
-    }];
+//    [imageViewArrow mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.right.mas_equalTo(0);
+//        make.width.mas_equalTo(8);
+//        make.centerY.mas_equalTo(button.mas_centerY);
+//        make.height.mas_equalTo(13);
+//    }];
+//    [labelTitle mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.right.mas_equalTo(imageViewArrow.mas_left).offset(-8);
+//        make.left.mas_equalTo(button.mas_left);
+//        make.top.bottom.mas_equalTo(0);
+//    }];
     
     return button;
 }

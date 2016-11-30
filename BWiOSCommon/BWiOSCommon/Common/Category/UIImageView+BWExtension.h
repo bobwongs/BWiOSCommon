@@ -8,12 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ Provides extensions for `UIImageView`.
+ */
 @interface UIImageView (BWExtension)
 
-/*
- Line
- */
+#pragma mark - Line
+
 + (UIImageView *)imageViewDottedLine;  ///< 虚线ImageView
 + (UIImageView *)imageViewSolidLine;  ///< 实线ImageView
+
+#pragma mark - Utility ImageView
+
++ (UIImageView *)imageViewRightArrow;  ///< 右箭头ImageView
 
 @end

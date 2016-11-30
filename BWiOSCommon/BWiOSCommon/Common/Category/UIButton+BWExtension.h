@@ -10,6 +10,8 @@
 
 @interface UIButton (BWExtension)
 
+#pragma mark - Create custom style button
+
 /*
   创建一个只带有Image的Button
  */

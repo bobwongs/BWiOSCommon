@@ -10,6 +10,8 @@
 
 @implementation UIImageView (BWExtension)
 
+#pragma mark - Line
+
 + (UIImageView *)imageViewDottedLine
 {
     UIImageView *imageView = [[UIImageView alloc] init];
@@ -21,6 +23,14 @@
 {
     UIImageView *imageView = [[UIImageView alloc] init];
     imageView.backgroundColor = [UIColor grayColor];
+    return imageView;
+}
+
+#pragma mark - Utility ImageView
+
++ (UIImageView *)imageViewRightArrow {
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"icon_arrow_right"]];
+    imageView.contentMode = UIViewContentModeScaleAspectFit;
     return imageView;
 }
 

@@ -12,14 +12,18 @@
 
 @implementation UITextField (BWExtension)
 
-+ (UITextField *)textFieldDefaultStyleWithPlaceHolder:(NSString *)placeholder
+#pragma mark - Create textfield
+
++ (UITextField *)textFieldBorderStyleNoneClearButtonModeWhileEditingWithPlaceHolder:(NSString *)placeholder
 {
     UITextField *textField = [[UITextField alloc] init];
     textField.placeholder = placeholder;
-    textField.clearButtonMode = UITextFieldViewModeWhileEditing;  // Setting
-    textField.borderStyle = UITextBorderStyleNone;  // Setting
+    textField.borderStyle = UITextBorderStyleNone;
+    textField.clearButtonMode = UITextFieldViewModeWhileEditing;  // Set the clear button appear time
     return textField;
 }
+
+#pragma mark - Limit textfield input
 
 static NSString *kLimitTextLengthKey = @"kLimitTextLengthKey";
 
@@ -72,6 +76,63 @@ static NSString *kLimitTextLengthKey = @"kLimitTextLengthKey";
             }
         }
     }
+}
+
++ (BOOL)moneyTextField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
+    BOOL hasDot = YES;
+    if ([textField.text rangeOfString:@"."].location == NSNotFound) {
+        hasDot = NO;
+    }
+    if ([string length] > 0)
+    {
+        unichar single = [string characterAtIndex:0];//当前输入的字符
+        if ((single >= '0' && single <= '9') || single == '.')//数据格式正确
+        {
+            if([textField.text length] == 0){
+                if(single == '.'){
+                    // 第一个数字不能为小数点
+                    return NO;
+                }
+            }
+            if (single == '.')
+            {
+                if(!hasDot)  //text中还没有小数点
+                {
+                    hasDot=YES;
+                    return YES;
+                }
+                else
+                {
+                    // 已经输入过小数点
+                    return NO;
+                }
+            }
+            else
+            {
+                if (hasDot)  //存在小数点
+                {
+                    // 判断小数点的位数
+                    NSRange ran = [textField.text rangeOfString:@"."];
+                    NSInteger tt = range.location - ran.location;
+                    if (tt <= 2){
+                        return YES;
+                    } else {
+                        // 最多输入两位小数
+                        return NO;
+                    }
+                }
+                else
+                {
+                    return YES;
+                }
+            }
+        } else {
+            // 输入的数据格式不正确
+            return NO;
+        }
+    }
+    
+    return YES;
 }
 
 @end

@@ -30,6 +30,9 @@
 		B452B8F31DEEBD3900CA97FE /* UIView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8ED1DEEBD3900CA97FE /* UIView+BWExtension.m */; };
 		B452B8F61DEEBD5B00CA97FE /* NSString+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8F51DEEBD5B00CA97FE /* NSString+BWExtension.m */; };
 		B452B8F91DEEBF5600CA97FE /* UIViewController+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8F81DEEBF5600CA97FE /* UIViewController+BWExtension.m */; };
+		B452B9031DEEC57400CA97FE /* icon_arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B452B9011DEEC57400CA97FE /* icon_arrow_right@2x.png */; };
+		B452B9041DEEC57400CA97FE /* icon_arrow_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B452B9021DEEC57400CA97FE /* icon_arrow_right@3x.png */; };
+		B452B9071DEEC63300CA97FE /* UIImage+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9061DEEC63300CA97FE /* UIImage+BWExtension.m */; };
 		BA64B521D5564DD533FE189E /* libPods-BWiOSCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD628FF903B6604FE5D293F /* libPods-BWiOSCommon.a */; };
 /* End PBXBuildFile section */
 
@@ -114,6 +117,10 @@
 		B452B8F71DEEBF5600CA97FE /* UIViewController+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BWExtension.h"; sourceTree = "<group>"; };
 		B452B8F81DEEBF5600CA97FE /* UIViewController+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BWExtension.m"; sourceTree = "<group>"; };
 		B452B8FE1DEEC21F00CA97FE /* YYCategories.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = YYCategories.zip; sourceTree = "<group>"; };
+		B452B9011DEEC57400CA97FE /* icon_arrow_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow_right@2x.png"; sourceTree = "<group>"; };
+		B452B9021DEEC57400CA97FE /* icon_arrow_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow_right@3x.png"; sourceTree = "<group>"; };
+		B452B9051DEEC63300CA97FE /* UIImage+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BWExtension.h"; sourceTree = "<group>"; };
+		B452B9061DEEC63300CA97FE /* UIImage+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BWExtension.m"; sourceTree = "<group>"; };
 		C7EB57AD112B3AB124CFF289 /* Pods-BWiOSCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommon/Pods-BWiOSCommon.release.xcconfig"; sourceTree = "<group>"; };
 		CF1DDDEE24B3660A576A9CE9 /* Pods-BWiOSCommonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonTests/Pods-BWiOSCommonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F54677D25AC6F8ECF0297D94 /* libPods-BWiOSCommonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSCommonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -271,6 +278,8 @@
 				B452B8F51DEEBD5B00CA97FE /* NSString+BWExtension.m */,
 				B452B8F71DEEBF5600CA97FE /* UIViewController+BWExtension.h */,
 				B452B8F81DEEBF5600CA97FE /* UIViewController+BWExtension.m */,
+				B452B9051DEEC63300CA97FE /* UIImage+BWExtension.h */,
+				B452B9061DEEC63300CA97FE /* UIImage+BWExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -333,6 +342,7 @@
 		B452B89C1DEE87C900CA97FE /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				B452B9001DEEC57400CA97FE /* Image */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -441,6 +451,15 @@
 				B452B8FE1DEEC21F00CA97FE /* YYCategories.zip */,
 			);
 			path = "2016-11-30";
+			sourceTree = "<group>";
+		};
+		B452B9001DEEC57400CA97FE /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B452B9011DEEC57400CA97FE /* icon_arrow_right@2x.png */,
+				B452B9021DEEC57400CA97FE /* icon_arrow_right@3x.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -561,6 +580,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B452B9041DEEC57400CA97FE /* icon_arrow_right@3x.png in Resources */,
+				B452B9031DEEC57400CA97FE /* icon_arrow_right@2x.png in Resources */,
 				B452B8701DEE86F900CA97FE /* LaunchScreen.storyboard in Resources */,
 				B452B8DE1DEE8C9600CA97FE /* BMDateSettingView.xib in Resources */,
 				B452B86D1DEE86F900CA97FE /* Assets.xcassets in Resources */,
@@ -728,6 +749,7 @@
 			files = (
 				B452B8DF1DEE8C9600CA97FE /* UIAlertView+Blocks.m in Sources */,
 				B452B8DC1DEE8C9600CA97FE /* BMDatePickAlertView.m in Sources */,
+				B452B9071DEEC63300CA97FE /* UIImage+BWExtension.m in Sources */,
 				B452B8EF1DEEBD3900CA97FE /* UIColor+BWExtension.m in Sources */,
 				B452B8F61DEEBD5B00CA97FE /* NSString+BWExtension.m in Sources */,
 				B452B8F91DEEBF5600CA97FE /* UIViewController+BWExtension.m in Sources */,

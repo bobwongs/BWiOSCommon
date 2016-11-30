@@ -13,19 +13,17 @@
  */
 @interface UIView (BWExtension)
 
-#pragma mark - Mine
+#pragma mark - Reframe view
 
-/*
- Reframe
- */
 - (void)bw_reframeX:(CGFloat)x;     ///< Reframe x.
 - (void)bw_reframeY:(CGFloat)y;     ///< Reframe y.
 - (void)bw_reframeWidth:(CGFloat)width;     ///< Reframe width.
 - (void)bw_reframeHeight:(CGFloat)height;   ///< Reframe height.
 
-/*
- Line
- */
-+ (UIView *)lineViewDefaultColor;   ///< 创建默认线条颜色的View
+#pragma mark - Line
+
++ (UIView *)lineViewDefaultColor;   ///< Create a line with the default line color, here is [UIColor grayColor] as an example.
+- (void)bm_addLineInBottom;   ///< Add line at the bottom with the width equal to self
+- (void)bm_addLineInBottomWith10LeftOffset;  ///< Add line at the bottom with 10 offset in left
 
 @end
