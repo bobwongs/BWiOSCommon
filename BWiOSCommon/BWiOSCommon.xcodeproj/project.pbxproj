@@ -15,22 +15,22 @@
 		B452B8701DEE86F900CA97FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B452B86E1DEE86F900CA97FE /* LaunchScreen.storyboard */; };
 		B452B87B1DEE86F900CA97FE /* BWiOSCommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B87A1DEE86F900CA97FE /* BWiOSCommonTests.m */; };
 		B452B8861DEE86F900CA97FE /* BWiOSCommonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8851DEE86F900CA97FE /* BWiOSCommonUITests.m */; };
-		B452B8A21DEE885300CA97FE /* UILabel+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8A11DEE885300CA97FE /* UILabel+BWExtension.m */; };
-		B452B8BC1DEE8B4F00CA97FE /* UIButton+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8B31DEE8B4F00CA97FE /* UIButton+BWExtension.m */; };
-		B452B8BD1DEE8B4F00CA97FE /* UIColor+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8B51DEE8B4F00CA97FE /* UIColor+BWExtension.m */; };
-		B452B8BE1DEE8B4F00CA97FE /* UIImageView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8B71DEE8B4F00CA97FE /* UIImageView+BWExtension.m */; };
-		B452B8BF1DEE8B4F00CA97FE /* UITextField+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8B91DEE8B4F00CA97FE /* UITextField+BWExtension.m */; };
-		B452B8C01DEE8B4F00CA97FE /* UIView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8BB1DEE8B4F00CA97FE /* UIView+BWExtension.m */; };
 		B452B8CD1DEE8C5500CA97FE /* BWAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8C31DEE8C5500CA97FE /* BWAlertUtil.m */; };
-		B452B8CE1DEE8C5500CA97FE /* BWAlertUtil.md in Sources */ = {isa = PBXBuildFile; fileRef = B452B8C41DEE8C5500CA97FE /* BWAlertUtil.md */; };
 		B452B8CF1DEE8C5500CA97FE /* BWDataCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8C71DEE8C5500CA97FE /* BWDataCommon.m */; };
-		B452B8D01DEE8C5500CA97FE /* BWDataCommon.md in Sources */ = {isa = PBXBuildFile; fileRef = B452B8C81DEE8C5500CA97FE /* BWDataCommon.md */; };
 		B452B8D11DEE8C5500CA97FE /* BWUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8CB1DEE8C5500CA97FE /* BWUICommon.m */; };
-		B452B8D21DEE8C5500CA97FE /* BWUICommon.md in Sources */ = {isa = PBXBuildFile; fileRef = B452B8CC1DEE8C5500CA97FE /* BWUICommon.md */; };
 		B452B8DC1DEE8C9600CA97FE /* BMDatePickAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8D51DEE8C9500CA97FE /* BMDatePickAlertView.m */; };
 		B452B8DD1DEE8C9600CA97FE /* BMDateSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8D71DEE8C9500CA97FE /* BMDateSettingView.m */; };
 		B452B8DE1DEE8C9600CA97FE /* BMDateSettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B452B8D81DEE8C9500CA97FE /* BMDateSettingView.xib */; };
 		B452B8DF1DEE8C9600CA97FE /* UIAlertView+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8DB1DEE8C9600CA97FE /* UIAlertView+Blocks.m */; };
+		B452B8EE1DEEBD3900CA97FE /* UIButton+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8E31DEEBD3900CA97FE /* UIButton+BWExtension.m */; };
+		B452B8EF1DEEBD3900CA97FE /* UIColor+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8E51DEEBD3900CA97FE /* UIColor+BWExtension.m */; };
+		B452B8F01DEEBD3900CA97FE /* UIImageView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8E71DEEBD3900CA97FE /* UIImageView+BWExtension.m */; };
+		B452B8F11DEEBD3900CA97FE /* UILabel+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8E91DEEBD3900CA97FE /* UILabel+BWExtension.m */; };
+		B452B8F21DEEBD3900CA97FE /* UITextField+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8EB1DEEBD3900CA97FE /* UITextField+BWExtension.m */; };
+		B452B8F31DEEBD3900CA97FE /* UIView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8ED1DEEBD3900CA97FE /* UIView+BWExtension.m */; };
+		B452B8F61DEEBD5B00CA97FE /* NSString+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8F51DEEBD5B00CA97FE /* NSString+BWExtension.m */; };
+		B452B8F91DEEBF5600CA97FE /* UIViewController+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8F81DEEBF5600CA97FE /* UIViewController+BWExtension.m */; };
+		B452B8FF1DEEC21F00CA97FE /* YYCategories.zip in Resources */ = {isa = PBXBuildFile; fileRef = B452B8FE1DEEC21F00CA97FE /* YYCategories.zip */; };
 		BA64B521D5564DD533FE189E /* libPods-BWiOSCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD628FF903B6604FE5D293F /* libPods-BWiOSCommon.a */; };
 /* End PBXBuildFile section */
 
@@ -71,8 +71,6 @@
 		B452B8811DEE86F900CA97FE /* BWiOSCommonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BWiOSCommonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B452B8851DEE86F900CA97FE /* BWiOSCommonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWiOSCommonUITests.m; sourceTree = "<group>"; };
 		B452B8871DEE86F900CA97FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B452B8A01DEE885300CA97FE /* UILabel+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BWExtension.h"; sourceTree = "<group>"; };
-		B452B8A11DEE885300CA97FE /* UILabel+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BWExtension.m"; sourceTree = "<group>"; };
 		B452B8A31DEE886D00CA97FE /* BWiOSCommon.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWiOSCommon.pch; sourceTree = "<group>"; };
 		B452B8A51DEE8AA600CA97FE /* BWCodeSnippetsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCodeSnippetsController.h; sourceTree = "<group>"; };
 		B452B8A61DEE8AA600CA97FE /* BWCodeSnippetsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCodeSnippetsController.m; sourceTree = "<group>"; };
@@ -82,17 +80,6 @@
 		B452B8AA1DEE8AA600CA97FE /* BWObjective-CCodeSnippets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BWObjective-CCodeSnippets.m"; sourceTree = "<group>"; };
 		B452B8AB1DEE8AA600CA97FE /* BWUICodeSnippets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWUICodeSnippets.h; sourceTree = "<group>"; };
 		B452B8AC1DEE8AA600CA97FE /* BWUICodeSnippets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWUICodeSnippets.m; sourceTree = "<group>"; };
-		B452B8B11DEE8B4F00CA97FE /* BWCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCategories.h; sourceTree = "<group>"; };
-		B452B8B21DEE8B4F00CA97FE /* UIButton+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BWExtension.h"; sourceTree = "<group>"; };
-		B452B8B31DEE8B4F00CA97FE /* UIButton+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BWExtension.m"; sourceTree = "<group>"; };
-		B452B8B41DEE8B4F00CA97FE /* UIColor+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BWExtension.h"; sourceTree = "<group>"; };
-		B452B8B51DEE8B4F00CA97FE /* UIColor+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BWExtension.m"; sourceTree = "<group>"; };
-		B452B8B61DEE8B4F00CA97FE /* UIImageView+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BWExtension.h"; sourceTree = "<group>"; };
-		B452B8B71DEE8B4F00CA97FE /* UIImageView+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BWExtension.m"; sourceTree = "<group>"; };
-		B452B8B81DEE8B4F00CA97FE /* UITextField+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BWExtension.h"; sourceTree = "<group>"; };
-		B452B8B91DEE8B4F00CA97FE /* UITextField+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BWExtension.m"; sourceTree = "<group>"; };
-		B452B8BA1DEE8B4F00CA97FE /* UIView+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BWExtension.h"; sourceTree = "<group>"; };
-		B452B8BB1DEE8B4F00CA97FE /* UIView+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BWExtension.m"; sourceTree = "<group>"; };
 		B452B8C21DEE8C5500CA97FE /* BWAlertUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWAlertUtil.h; sourceTree = "<group>"; };
 		B452B8C31DEE8C5500CA97FE /* BWAlertUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWAlertUtil.m; sourceTree = "<group>"; };
 		B452B8C41DEE8C5500CA97FE /* BWAlertUtil.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BWAlertUtil.md; sourceTree = "<group>"; };
@@ -110,6 +97,24 @@
 		B452B8DA1DEE8C9600CA97FE /* UIAlertView+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Blocks.h"; sourceTree = "<group>"; };
 		B452B8DB1DEE8C9600CA97FE /* UIAlertView+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Blocks.m"; sourceTree = "<group>"; };
 		B452B8E01DEE8CD200CA97FE /* BWMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
+		B452B8E11DEEBD3900CA97FE /* BWCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCategories.h; sourceTree = "<group>"; };
+		B452B8E21DEEBD3900CA97FE /* UIButton+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8E31DEEBD3900CA97FE /* UIButton+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8E41DEEBD3900CA97FE /* UIColor+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8E51DEEBD3900CA97FE /* UIColor+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8E61DEEBD3900CA97FE /* UIImageView+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8E71DEEBD3900CA97FE /* UIImageView+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8E81DEEBD3900CA97FE /* UILabel+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8E91DEEBD3900CA97FE /* UILabel+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8EA1DEEBD3900CA97FE /* UITextField+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8EB1DEEBD3900CA97FE /* UITextField+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8EC1DEEBD3900CA97FE /* UIView+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8ED1DEEBD3900CA97FE /* UIView+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8F41DEEBD5B00CA97FE /* NSString+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8F51DEEBD5B00CA97FE /* NSString+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8F71DEEBF5600CA97FE /* UIViewController+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8F81DEEBF5600CA97FE /* UIViewController+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8FE1DEEC21F00CA97FE /* YYCategories.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = YYCategories.zip; sourceTree = "<group>"; };
 		C7EB57AD112B3AB124CFF289 /* Pods-BWiOSCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommon/Pods-BWiOSCommon.release.xcconfig"; sourceTree = "<group>"; };
 		CF1DDDEE24B3660A576A9CE9 /* Pods-BWiOSCommonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonTests/Pods-BWiOSCommonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F54677D25AC6F8ECF0297D94 /* libPods-BWiOSCommonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSCommonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -200,6 +205,7 @@
 				B452B8991DEE87C900CA97FE /* Library */,
 				B452B89B1DEE87C900CA97FE /* Network */,
 				B452B89C1DEE87C900CA97FE /* Resource */,
+				B452B8FA1DEEC21F00CA97FE /* Reference */,
 				B452B86C1DEE86F900CA97FE /* Assets.xcassets */,
 				B452B8601DEE86F900CA97FE /* Supporting Files */,
 			);
@@ -249,8 +255,23 @@
 		B452B8941DEE87C900CA97FE /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				B452B89E1DEE881700CA97FE /* Foundation */,
-				B452B89F1DEE881700CA97FE /* UIKit */,
+				B452B8E11DEEBD3900CA97FE /* BWCategories.h */,
+				B452B8E21DEEBD3900CA97FE /* UIButton+BWExtension.h */,
+				B452B8E31DEEBD3900CA97FE /* UIButton+BWExtension.m */,
+				B452B8E41DEEBD3900CA97FE /* UIColor+BWExtension.h */,
+				B452B8E51DEEBD3900CA97FE /* UIColor+BWExtension.m */,
+				B452B8E61DEEBD3900CA97FE /* UIImageView+BWExtension.h */,
+				B452B8E71DEEBD3900CA97FE /* UIImageView+BWExtension.m */,
+				B452B8E81DEEBD3900CA97FE /* UILabel+BWExtension.h */,
+				B452B8E91DEEBD3900CA97FE /* UILabel+BWExtension.m */,
+				B452B8EA1DEEBD3900CA97FE /* UITextField+BWExtension.h */,
+				B452B8EB1DEEBD3900CA97FE /* UITextField+BWExtension.m */,
+				B452B8EC1DEEBD3900CA97FE /* UIView+BWExtension.h */,
+				B452B8ED1DEEBD3900CA97FE /* UIView+BWExtension.m */,
+				B452B8F41DEEBD5B00CA97FE /* NSString+BWExtension.h */,
+				B452B8F51DEEBD5B00CA97FE /* NSString+BWExtension.m */,
+				B452B8F71DEEBF5600CA97FE /* UIViewController+BWExtension.h */,
+				B452B8F81DEEBF5600CA97FE /* UIViewController+BWExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -325,33 +346,6 @@
 			path = Document;
 			sourceTree = "<group>";
 		};
-		B452B89E1DEE881700CA97FE /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		B452B89F1DEE881700CA97FE /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				B452B8B11DEE8B4F00CA97FE /* BWCategories.h */,
-				B452B8A01DEE885300CA97FE /* UILabel+BWExtension.h */,
-				B452B8A11DEE885300CA97FE /* UILabel+BWExtension.m */,
-				B452B8B21DEE8B4F00CA97FE /* UIButton+BWExtension.h */,
-				B452B8B31DEE8B4F00CA97FE /* UIButton+BWExtension.m */,
-				B452B8B41DEE8B4F00CA97FE /* UIColor+BWExtension.h */,
-				B452B8B51DEE8B4F00CA97FE /* UIColor+BWExtension.m */,
-				B452B8B61DEE8B4F00CA97FE /* UIImageView+BWExtension.h */,
-				B452B8B71DEE8B4F00CA97FE /* UIImageView+BWExtension.m */,
-				B452B8B81DEE8B4F00CA97FE /* UITextField+BWExtension.h */,
-				B452B8B91DEE8B4F00CA97FE /* UITextField+BWExtension.m */,
-				B452B8BA1DEE8B4F00CA97FE /* UIView+BWExtension.h */,
-				B452B8BB1DEE8B4F00CA97FE /* UIView+BWExtension.m */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
 		B452B8A41DEE8A6E00CA97FE /* CodeSnippets */ = {
 			isa = PBXGroup;
 			children = (
@@ -416,6 +410,38 @@
 				B452B8DB1DEE8C9600CA97FE /* UIAlertView+Blocks.m */,
 			);
 			path = "UIAlertView+Blocks";
+			sourceTree = "<group>";
+		};
+		B452B8FA1DEEC21F00CA97FE /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				B452B8FB1DEEC21F00CA97FE /* Backup */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		B452B8FB1DEEC21F00CA97FE /* Backup */ = {
+			isa = PBXGroup;
+			children = (
+				B452B8FC1DEEC21F00CA97FE /* YYCategories */,
+			);
+			path = Backup;
+			sourceTree = "<group>";
+		};
+		B452B8FC1DEEC21F00CA97FE /* YYCategories */ = {
+			isa = PBXGroup;
+			children = (
+				B452B8FD1DEEC21F00CA97FE /* 2016-11-30 */,
+			);
+			path = YYCategories;
+			sourceTree = "<group>";
+		};
+		B452B8FD1DEEC21F00CA97FE /* 2016-11-30 */ = {
+			isa = PBXGroup;
+			children = (
+				B452B8FE1DEEC21F00CA97FE /* YYCategories.zip */,
+			);
+			path = "2016-11-30";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -537,6 +563,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B452B8701DEE86F900CA97FE /* LaunchScreen.storyboard in Resources */,
+				B452B8FF1DEEC21F00CA97FE /* YYCategories.zip in Resources */,
 				B452B8DE1DEE8C9600CA97FE /* BMDateSettingView.xib in Resources */,
 				B452B86D1DEE86F900CA97FE /* Assets.xcassets in Resources */,
 			);
@@ -702,22 +729,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				B452B8DF1DEE8C9600CA97FE /* UIAlertView+Blocks.m in Sources */,
-				B452B8CE1DEE8C5500CA97FE /* BWAlertUtil.md in Sources */,
-				B452B8BC1DEE8B4F00CA97FE /* UIButton+BWExtension.m in Sources */,
 				B452B8DC1DEE8C9600CA97FE /* BMDatePickAlertView.m in Sources */,
-				B452B8D21DEE8C5500CA97FE /* BWUICommon.md in Sources */,
+				B452B8EF1DEEBD3900CA97FE /* UIColor+BWExtension.m in Sources */,
+				B452B8F61DEEBD5B00CA97FE /* NSString+BWExtension.m in Sources */,
+				B452B8F91DEEBF5600CA97FE /* UIViewController+BWExtension.m in Sources */,
 				B452B8DD1DEE8C9600CA97FE /* BMDateSettingView.m in Sources */,
 				B452B8D11DEE8C5500CA97FE /* BWUICommon.m in Sources */,
-				B452B8C01DEE8B4F00CA97FE /* UIView+BWExtension.m in Sources */,
+				B452B8F01DEEBD3900CA97FE /* UIImageView+BWExtension.m in Sources */,
+				B452B8F11DEEBD3900CA97FE /* UILabel+BWExtension.m in Sources */,
 				B452B8651DEE86F900CA97FE /* AppDelegate.m in Sources */,
 				B452B8621DEE86F900CA97FE /* main.m in Sources */,
+				B452B8EE1DEEBD3900CA97FE /* UIButton+BWExtension.m in Sources */,
+				B452B8F21DEEBD3900CA97FE /* UITextField+BWExtension.m in Sources */,
 				B452B8CD1DEE8C5500CA97FE /* BWAlertUtil.m in Sources */,
-				B452B8BD1DEE8B4F00CA97FE /* UIColor+BWExtension.m in Sources */,
-				B452B8A21DEE885300CA97FE /* UILabel+BWExtension.m in Sources */,
-				B452B8BE1DEE8B4F00CA97FE /* UIImageView+BWExtension.m in Sources */,
 				B452B8CF1DEE8C5500CA97FE /* BWDataCommon.m in Sources */,
-				B452B8D01DEE8C5500CA97FE /* BWDataCommon.md in Sources */,
-				B452B8BF1DEE8B4F00CA97FE /* UITextField+BWExtension.m in Sources */,
+				B452B8F31DEEBD3900CA97FE /* UIView+BWExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -955,6 +981,7 @@
 				B452B88C1DEE86F900CA97FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B452B88D1DEE86F900CA97FE /* Build configuration list for PBXNativeTarget "BWiOSCommonTests" */ = {
 			isa = XCConfigurationList;
@@ -963,6 +990,7 @@
 				B452B88F1DEE86F900CA97FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B452B8901DEE86F900CA97FE /* Build configuration list for PBXNativeTarget "BWiOSCommonUITests" */ = {
 			isa = XCConfigurationList;
@@ -971,6 +999,7 @@
 				B452B8921DEE86F900CA97FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

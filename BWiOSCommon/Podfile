@@ -9,6 +9,7 @@ target 'BWiOSCommon' do
 
   pod 'Masonry'
   pod 'MBProgressHUD', '~> 1.0.0'
+  pod 'YYCategories'
 
   target 'BWiOSCommonTests' do
     inherit! :search_paths
