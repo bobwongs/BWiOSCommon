@@ -14,6 +14,11 @@
 		B452B87B1DEE86F900CA97FE /* BWiOSCommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B87A1DEE86F900CA97FE /* BWiOSCommonTests.m */; };
 		B452B8861DEE86F900CA97FE /* BWiOSCommonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8851DEE86F900CA97FE /* BWiOSCommonUITests.m */; };
 		B452B8A21DEE885300CA97FE /* UILabel+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8A11DEE885300CA97FE /* UILabel+BWExtension.m */; };
+		B452B8BC1DEE8B4F00CA97FE /* UIButton+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8B31DEE8B4F00CA97FE /* UIButton+BWExtension.m */; };
+		B452B8BD1DEE8B4F00CA97FE /* UIColor+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8B51DEE8B4F00CA97FE /* UIColor+BWExtension.m */; };
+		B452B8BE1DEE8B4F00CA97FE /* UIImageView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8B71DEE8B4F00CA97FE /* UIImageView+BWExtension.m */; };
+		B452B8BF1DEE8B4F00CA97FE /* UITextField+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8B91DEE8B4F00CA97FE /* UITextField+BWExtension.m */; };
+		B452B8C01DEE8B4F00CA97FE /* UIView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8BB1DEE8B4F00CA97FE /* UIView+BWExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,17 @@
 		B452B8AA1DEE8AA600CA97FE /* BWObjective-CCodeSnippets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BWObjective-CCodeSnippets.m"; sourceTree = "<group>"; };
 		B452B8AB1DEE8AA600CA97FE /* BWUICodeSnippets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWUICodeSnippets.h; sourceTree = "<group>"; };
 		B452B8AC1DEE8AA600CA97FE /* BWUICodeSnippets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWUICodeSnippets.m; sourceTree = "<group>"; };
+		B452B8B11DEE8B4F00CA97FE /* BWCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCategories.h; sourceTree = "<group>"; };
+		B452B8B21DEE8B4F00CA97FE /* UIButton+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8B31DEE8B4F00CA97FE /* UIButton+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8B41DEE8B4F00CA97FE /* UIColor+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8B51DEE8B4F00CA97FE /* UIColor+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8B61DEE8B4F00CA97FE /* UIImageView+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8B71DEE8B4F00CA97FE /* UIImageView+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8B81DEE8B4F00CA97FE /* UITextField+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8B91DEE8B4F00CA97FE /* UITextField+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+BWExtension.m"; sourceTree = "<group>"; };
+		B452B8BA1DEE8B4F00CA97FE /* UIView+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BWExtension.h"; sourceTree = "<group>"; };
+		B452B8BB1DEE8B4F00CA97FE /* UIView+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BWExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,8 +262,19 @@
 		B452B89F1DEE881700CA97FE /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				B452B8B11DEE8B4F00CA97FE /* BWCategories.h */,
 				B452B8A01DEE885300CA97FE /* UILabel+BWExtension.h */,
 				B452B8A11DEE885300CA97FE /* UILabel+BWExtension.m */,
+				B452B8B21DEE8B4F00CA97FE /* UIButton+BWExtension.h */,
+				B452B8B31DEE8B4F00CA97FE /* UIButton+BWExtension.m */,
+				B452B8B41DEE8B4F00CA97FE /* UIColor+BWExtension.h */,
+				B452B8B51DEE8B4F00CA97FE /* UIColor+BWExtension.m */,
+				B452B8B61DEE8B4F00CA97FE /* UIImageView+BWExtension.h */,
+				B452B8B71DEE8B4F00CA97FE /* UIImageView+BWExtension.m */,
+				B452B8B81DEE8B4F00CA97FE /* UITextField+BWExtension.h */,
+				B452B8B91DEE8B4F00CA97FE /* UITextField+BWExtension.m */,
+				B452B8BA1DEE8B4F00CA97FE /* UIView+BWExtension.h */,
+				B452B8BB1DEE8B4F00CA97FE /* UIView+BWExtension.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -402,9 +429,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B452B8BC1DEE8B4F00CA97FE /* UIButton+BWExtension.m in Sources */,
+				B452B8C01DEE8B4F00CA97FE /* UIView+BWExtension.m in Sources */,
 				B452B8651DEE86F900CA97FE /* AppDelegate.m in Sources */,
 				B452B8621DEE86F900CA97FE /* main.m in Sources */,
+				B452B8BD1DEE8B4F00CA97FE /* UIColor+BWExtension.m in Sources */,
 				B452B8A21DEE885300CA97FE /* UILabel+BWExtension.m in Sources */,
+				B452B8BE1DEE8B4F00CA97FE /* UIImageView+BWExtension.m in Sources */,
+				B452B8BF1DEE8B4F00CA97FE /* UITextField+BWExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
