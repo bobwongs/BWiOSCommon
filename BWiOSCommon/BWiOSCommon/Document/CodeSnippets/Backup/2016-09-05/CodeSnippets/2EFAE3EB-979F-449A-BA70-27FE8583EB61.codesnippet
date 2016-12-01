@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUITextFieldTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UITextField *&lt;#textField#&gt; = [[UITextField alloc] init];
+&lt;#textField#&gt;.placeholder = &lt;#NSString#&gt;;
+&lt;#textField#&gt;.text = &lt;#NSString#&gt;;
+&lt;#textField#&gt;.borderStyle = &lt;#UITextBorderStyle#&gt;;
+&lt;#textField#&gt;.textColor = &lt;#UIColor#&gt;;
+&lt;#textField#&gt;.font = &lt;#UIFont#&gt;;
+&lt;#textField#&gt;.background = &lt;#UIImage#&gt;;
+&lt;#textField#&gt;.backgroundColor = &lt;#UIColor#&gt;;
+[&lt;#superview#&gt; addSubview:&lt;#textField#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2EFAE3EB-979F-449A-BA70-27FE8583EB61</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUITextFieldTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUITextFieldTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

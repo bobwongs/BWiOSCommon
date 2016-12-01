@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUICollectionViewCreationCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UICollectionViewFlowLayout * layout = [[UICollectionViewFlowLayout alloc] init];
+    UICollectionView * collectionView = [[UICollectionView alloc] initWithFrame:CGRect collectionViewLayout:layout];
+    collectionView.dataSource = id &lt;UICollectionViewDataSource&gt;;
+    collectionView.delegate = id &lt;UICollectionViewDelegate&gt;;
+    [view addSubview:collectionView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>25A4907C-70D3-40DF-8BC0-C3635B4EC71F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UICollectionView的创建代码</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUICollectionViewCreationCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

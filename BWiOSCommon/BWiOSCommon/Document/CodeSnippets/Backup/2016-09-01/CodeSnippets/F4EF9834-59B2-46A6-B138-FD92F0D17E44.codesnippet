@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUITextViewCreationCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UITextView * textView = [[UITextView alloc] initWithFrame:CGRect];
+    textView.center = CGPoint;
+    textView.text = text;
+    textView.textColor = UIColor;
+    textView.font = UIFont;
+    textView.backgroundColor = UIColor;
+    [view addSubview:textView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F4EF9834-59B2-46A6-B138-FD92F0D17E44</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>创建UITextView的代码</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUITextViewCreationCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

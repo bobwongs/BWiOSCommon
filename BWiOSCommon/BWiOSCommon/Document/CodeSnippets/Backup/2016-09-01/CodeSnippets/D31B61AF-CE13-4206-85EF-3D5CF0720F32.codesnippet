@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUIActivityIndicatorViewCreationCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIActivityIndicatorView * indicatorView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyle];
+indicatorView.frame = CGRect;
+indicatorView.color = UIColor;
+indicatorView.backgroundColor = UIColor;
+[indicatorView hidesWhenStopped];
+[self.view addSubview:indicatorView];
+[indicatorView startAnimating];
+//    [indicatorView stopAnimating];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D31B61AF-CE13-4206-85EF-3D5CF0720F32</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>创建UIActivityIndicatorView的代码</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUIActivityIndicatorViewCreationCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

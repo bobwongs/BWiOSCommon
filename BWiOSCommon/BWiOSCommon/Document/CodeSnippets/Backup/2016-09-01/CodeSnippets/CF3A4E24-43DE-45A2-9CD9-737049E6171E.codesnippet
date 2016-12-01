@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>CTBBNetworkTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)request
+{
+    NSDictionary * params = @{
+                              
+                              };
+    
+    [ES_NETWORKCENTER postWithPath:URL_PATH parameters:params success:^(ESHTTPRequestOperation *operation, id responseObject) {
+        [BBAlertUtil hideHUD];
+        
+        if (responseObject &amp;&amp; [responseObject[kDZD_RCD] intValue] != 0)
+        {
+            
+            [BBAlertUtil showAlertWithErrorCode:[responseObject[kDZD_RCD] intValue]];
+            
+            return;
+        }
+    } failure:^(ESHTTPRequestOperation *operation, NSError *error) {
+        [BBAlertUtil hideHUD];
+    }];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CF3A4E24-43DE-45A2-9CD9-737049E6171E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>CTBBNetworkTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>CTBBNetworkTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUIImageViewCreationCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRect];
+imageView.center = CGPoint;
+imageView.image = UIImage;
+imageView.contentMode = UIViewContentMode;
+[view addSubview:imageView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BA6E2DF5-422E-4E3A-B04E-3F18340FFAF9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>创建UIImageVIew的代码</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUIImageViewCreationCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

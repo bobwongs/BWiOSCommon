@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>EOPNetworkTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)request
+{
+    NSDictionary * params = @{
+                              };
+    
+    [EOPAlertCommon showLoadingInView:self.view];
+    [[EOPNetworkKit sharedInstance] POSTWithURLString:EOP_URL parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        [EOPAlertCommon hideLoadingInView:self.view];
+        
+        if (![responseObject[@"resultCode"] isEqualToString:@"0000"]) {
+            [EOPAlertCommon showAlertWithText:responseObject[@"msg"] inView:self.view];
+            
+            return ;
+        }
+        
+        NSDictionary * dict = responseObject[@"response"];
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        [EOPAlertCommon hideLoadingInView:self.view];
+        [EOPAlertCommon showAlertWithText:EOP_TEXT_NETWORK_FAILED inView:self.view];
+    }];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BB6C8E7E-A35F-4E7E-AB41-78D3FEDE50B1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>EOP网络请求模板代码</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>EOPNetworkTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

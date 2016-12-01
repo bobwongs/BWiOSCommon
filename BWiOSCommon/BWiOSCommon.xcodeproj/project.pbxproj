@@ -37,6 +37,7 @@
 		B452B9141DEED06600CA97FE /* BWBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9131DEED06600CA97FE /* BWBaseViewController.m */; };
 		B452B9171DEED09B00CA97FE /* BWHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9161DEED09B00CA97FE /* BWHomeVC.m */; };
 		B452B91A1DEED0A800CA97FE /* BWResearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9191DEED0A800CA97FE /* BWResearchVC.m */; };
+		B452B91D1DEFCD5F00CA97FE /* NSDate+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B91C1DEFCD5F00CA97FE /* NSDate+BWExtension.m */; };
 		BA64B521D5564DD533FE189E /* libPods-BWiOSCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD628FF903B6604FE5D293F /* libPods-BWiOSCommon.a */; };
 /* End PBXBuildFile section */
 
@@ -133,6 +134,8 @@
 		B452B9161DEED09B00CA97FE /* BWHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHomeVC.m; sourceTree = "<group>"; };
 		B452B9181DEED0A800CA97FE /* BWResearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWResearchVC.h; sourceTree = "<group>"; };
 		B452B9191DEED0A800CA97FE /* BWResearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWResearchVC.m; sourceTree = "<group>"; };
+		B452B91B1DEFCD5F00CA97FE /* NSDate+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+BWExtension.h"; sourceTree = "<group>"; };
+		B452B91C1DEFCD5F00CA97FE /* NSDate+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BWExtension.m"; sourceTree = "<group>"; };
 		C7EB57AD112B3AB124CFF289 /* Pods-BWiOSCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommon/Pods-BWiOSCommon.release.xcconfig"; sourceTree = "<group>"; };
 		CF1DDDEE24B3660A576A9CE9 /* Pods-BWiOSCommonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonTests/Pods-BWiOSCommonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F54677D25AC6F8ECF0297D94 /* libPods-BWiOSCommonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSCommonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -293,6 +296,8 @@
 				B452B8F81DEEBF5600CA97FE /* UIViewController+BWExtension.m */,
 				B452B9051DEEC63300CA97FE /* UIImage+BWExtension.h */,
 				B452B9061DEEC63300CA97FE /* UIImage+BWExtension.m */,
+				B452B91B1DEFCD5F00CA97FE /* NSDate+BWExtension.h */,
+				B452B91C1DEFCD5F00CA97FE /* NSDate+BWExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -804,6 +809,7 @@
 				B452B9071DEEC63300CA97FE /* UIImage+BWExtension.m in Sources */,
 				B452B8EF1DEEBD3900CA97FE /* UIColor+BWExtension.m in Sources */,
 				B452B8F61DEEBD5B00CA97FE /* NSString+BWExtension.m in Sources */,
+				B452B91D1DEFCD5F00CA97FE /* NSDate+BWExtension.m in Sources */,
 				B452B90E1DEECF3900CA97FE /* BWImageAndTitleButton.m in Sources */,
 				B452B8F91DEEBF5600CA97FE /* UIViewController+BWExtension.m in Sources */,
 				B452B91A1DEED0A800CA97FE /* BWResearchVC.m in Sources */,

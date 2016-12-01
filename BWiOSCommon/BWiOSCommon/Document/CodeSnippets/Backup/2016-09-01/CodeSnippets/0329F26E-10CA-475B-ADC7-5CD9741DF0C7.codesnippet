@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUIButtonCreationCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *button = [UIButton buttonWithType:UIButtonType];
+button.tag = NSInteger;
+button.frame = CGRect;
+button.center = CGPoint;
+[button setTitle:NSString forState:UIControlState];
+[button setTitleColor:UIColor forState:UIControlState];
+button.titleLabel.font = UIFont;
+[button setImage:UIImage forState:UIControlState];
+[button setBackgroundImage:UIImage forState:UIControlState];
+button.backgroundColor = UIColor;
+[button addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEvent];
+[view addSubview:button];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>0329F26E-10CA-475B-ADC7-5CD9741DF0C7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>创建UIButton的代码</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUIButtonCreationCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

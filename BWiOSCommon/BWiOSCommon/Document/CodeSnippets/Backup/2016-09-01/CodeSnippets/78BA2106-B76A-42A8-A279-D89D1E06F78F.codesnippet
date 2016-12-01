@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWBMViewTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - 生命周期
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        [self setUI];
+        [self setConstraints];
+    }
+    return self;
+}
+
+#pragma mark - Getter and Setter
+
+#pragma mark - 系统Delegate
+
+#pragma mark - 自定义Delegate
+
+#pragma mark - 事件响应
+
+#pragma mark - 共有方法
+
+#pragma mark - 私有方法
+
+- (void)setUI
+{
+
+}
+
+- (void)setConstraints
+{
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>78BA2106-B76A-42A8-A279-D89D1E06F78F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWBMViewTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWBMViewTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

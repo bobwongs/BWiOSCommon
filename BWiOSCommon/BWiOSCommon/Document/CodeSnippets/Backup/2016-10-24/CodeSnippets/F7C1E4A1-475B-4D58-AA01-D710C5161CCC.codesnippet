@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUIActionSheetTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIActionSheet *&lt;#actionSheet#&gt; = [[UIActionSheet alloc] initWithTitle:&lt;#(nullable NSString *)#&gt; delegate:&lt;#(nullable id&lt;UIActionSheetDelegate&gt;)#&gt; cancelButtonTitle:&lt;#(nullable NSString *)#&gt; destructiveButtonTitle:&lt;#(nullable NSString *)#&gt; otherButtonTitles:&lt;#(nullable NSString *), ...#&gt;, nil];
+[&lt;#actionSheet#&gt; showInView:&lt;#(nonnull UIView *)#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F7C1E4A1-475B-4D58-AA01-D710C5161CCC</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUIActionSheetTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUIActionSheetTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

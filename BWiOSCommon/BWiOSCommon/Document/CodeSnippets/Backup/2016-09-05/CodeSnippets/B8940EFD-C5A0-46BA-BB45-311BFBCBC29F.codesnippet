@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWNSNotificationCenterRemoveTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[[NSNotificationCenter defaultCenter] removeObserver:&lt;#(nonnull id)#&gt; name:&lt;#(nullable NSString *)#&gt; object:&lt;#(nullable id)#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B8940EFD-C5A0-46BA-BB45-311BFBCBC29F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWNSNotificationCenterRemoveTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWNSNotificationCenterRemoveTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

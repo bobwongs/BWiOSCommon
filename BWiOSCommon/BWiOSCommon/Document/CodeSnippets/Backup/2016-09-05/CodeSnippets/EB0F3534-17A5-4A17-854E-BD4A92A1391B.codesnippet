@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUISliderFrameTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UISlider *&lt;#slider#&gt; = [[UISlider alloc] initWithFrame:&lt;#CGRect#&gt;];
+    [&lt;#superview#&gt; addSubview:&lt;#slider#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EB0F3534-17A5-4A17-854E-BD4A92A1391B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUISliderFrameTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUISliderFrameTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

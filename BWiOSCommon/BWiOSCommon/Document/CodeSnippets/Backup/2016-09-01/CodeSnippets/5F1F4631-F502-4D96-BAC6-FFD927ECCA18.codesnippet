@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUITextFieldCreationCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UITextField *textField = [[UITextField alloc] initWithFrame:CGRect];
+    textField.center = CGPoint;
+    textField.placeholder = NSString;
+    textField.text = NSString;
+    textField.borderStyle = UITextBorderStyle;
+    textField.textColor = UIColor;
+    textField.font = UIFont;
+    textField.background = UIImage;
+    textField.backgroundColor = UIColor;
+    [view addSubview:textField];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5F1F4631-F502-4D96-BAC6-FFD927ECCA18</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>创建UITextField的代码</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUITextFieldCreationCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

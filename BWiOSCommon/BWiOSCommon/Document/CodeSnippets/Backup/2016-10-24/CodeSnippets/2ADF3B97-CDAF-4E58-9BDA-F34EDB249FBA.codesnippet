@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUITableViewDataSourceAndDelegateTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return &lt;#NSInteger#&gt;;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return &lt;#_dataSource#&gt; ? &lt;#_dataSource#&gt;.count : 0;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *&lt;#cellId#&gt; = &lt;#@"Cell"#&gt;;
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:&lt;#cellId#&gt;];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:&lt;#UITableViewCellStyle#&gt; reuseIdentifier:&lt;#cellId#&gt;];
+    }
+    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    //    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return &lt;#CGFloat#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2ADF3B97-CDAF-4E58-9BDA-F34EDB249FBA</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUITableViewDataSourceAndDelegateTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUITableViewDataSourceAndDelegateTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

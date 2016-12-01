@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUILabelWithoutFrame</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UILabel *label = [[UILabel alloc] init];
+label.text = NSString;
+label.numberOfLines = NSInteger;
+label.textAlignment = NSTextAlignment;
+label.font = ;
+label.textColor = UIColor;
+label.backgroundColor = UIColor;
+[view addSubview:label];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C01A9235-D14B-4434-A222-6D32ACD506DE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUILabelWithoutFrame</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUILabelWithoutFrame</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

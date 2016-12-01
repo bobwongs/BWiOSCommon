@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUIWebViewCreationCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIWebView * webView = [[UIWebView alloc] initWithFrame:CGRect];
+    webView.delegate = id &lt;UIWebViewDelegate&gt;;
+    [view addSubview:webView];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7BEB0B9B-2FB9-4010-B28B-2F3D61DF8C6C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIWebView的创建代码</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUIWebViewCreationCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
