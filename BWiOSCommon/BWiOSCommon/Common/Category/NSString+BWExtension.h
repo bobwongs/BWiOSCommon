@@ -23,4 +23,11 @@
 - (CGFloat)bw_heightWithfont:(UIFont *)font
                fixedWidth:(CGFloat)width;
 
+/**
+ Get the string with the font
+ */
++ (CGFloat)widthForString:(NSString*)string
+                     font:(UIFont*)font;
+
+
 @end

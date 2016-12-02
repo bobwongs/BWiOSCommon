@@ -15,9 +15,6 @@
 		B452B8701DEE86F900CA97FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B452B86E1DEE86F900CA97FE /* LaunchScreen.storyboard */; };
 		B452B87B1DEE86F900CA97FE /* BWiOSCommonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B87A1DEE86F900CA97FE /* BWiOSCommonTests.m */; };
 		B452B8861DEE86F900CA97FE /* BWiOSCommonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8851DEE86F900CA97FE /* BWiOSCommonUITests.m */; };
-		B452B8CD1DEE8C5500CA97FE /* BWAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8C31DEE8C5500CA97FE /* BWAlertUtil.m */; };
-		B452B8CF1DEE8C5500CA97FE /* BWDataCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8C71DEE8C5500CA97FE /* BWDataCommon.m */; };
-		B452B8D11DEE8C5500CA97FE /* BWUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8CB1DEE8C5500CA97FE /* BWUICommon.m */; };
 		B452B8DC1DEE8C9600CA97FE /* BMDatePickAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8D51DEE8C9500CA97FE /* BMDatePickAlertView.m */; };
 		B452B8DD1DEE8C9600CA97FE /* BMDateSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8D71DEE8C9500CA97FE /* BMDateSettingView.m */; };
 		B452B8DE1DEE8C9600CA97FE /* BMDateSettingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B452B8D81DEE8C9500CA97FE /* BMDateSettingView.xib */; };
@@ -38,6 +35,13 @@
 		B452B9171DEED09B00CA97FE /* BWHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9161DEED09B00CA97FE /* BWHomeVC.m */; };
 		B452B91A1DEED0A800CA97FE /* BWResearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9191DEED0A800CA97FE /* BWResearchVC.m */; };
 		B452B91D1DEFCD5F00CA97FE /* NSDate+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B91C1DEFCD5F00CA97FE /* NSDate+BWExtension.m */; };
+		B4F2E8FD1DF114960036A3DE /* BWAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F2E8F51DF114960036A3DE /* BWAlertUtil.m */; };
+		B4F2E8FE1DF114960036A3DE /* BWAlertUtil.md in Sources */ = {isa = PBXBuildFile; fileRef = B4F2E8F61DF114960036A3DE /* BWAlertUtil.md */; };
+		B4F2E8FF1DF114960036A3DE /* BWDataCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F2E8F81DF114960036A3DE /* BWDataCommon.m */; };
+		B4F2E9001DF114960036A3DE /* BWDataCommon.md in Sources */ = {isa = PBXBuildFile; fileRef = B4F2E8F91DF114960036A3DE /* BWDataCommon.md */; };
+		B4F2E9011DF114960036A3DE /* BWUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F2E8FB1DF114960036A3DE /* BWUICommon.m */; };
+		B4F2E9021DF114960036A3DE /* BWUICommon.md in Sources */ = {isa = PBXBuildFile; fileRef = B4F2E8FC1DF114960036A3DE /* BWUICommon.md */; };
+		B4F2E9051DF11AEF0036A3DE /* BWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F2E9041DF11AEF0036A3DE /* BWNavigationController.m */; };
 		BA64B521D5564DD533FE189E /* libPods-BWiOSCommon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD628FF903B6604FE5D293F /* libPods-BWiOSCommon.a */; };
 /* End PBXBuildFile section */
 
@@ -87,15 +91,6 @@
 		B452B8AA1DEE8AA600CA97FE /* BWObjective-CCodeSnippets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BWObjective-CCodeSnippets.m"; sourceTree = "<group>"; };
 		B452B8AB1DEE8AA600CA97FE /* BWUICodeSnippets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWUICodeSnippets.h; sourceTree = "<group>"; };
 		B452B8AC1DEE8AA600CA97FE /* BWUICodeSnippets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWUICodeSnippets.m; sourceTree = "<group>"; };
-		B452B8C21DEE8C5500CA97FE /* BWAlertUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWAlertUtil.h; sourceTree = "<group>"; };
-		B452B8C31DEE8C5500CA97FE /* BWAlertUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWAlertUtil.m; sourceTree = "<group>"; };
-		B452B8C41DEE8C5500CA97FE /* BWAlertUtil.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BWAlertUtil.md; sourceTree = "<group>"; };
-		B452B8C61DEE8C5500CA97FE /* BWDataCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWDataCommon.h; sourceTree = "<group>"; };
-		B452B8C71DEE8C5500CA97FE /* BWDataCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWDataCommon.m; sourceTree = "<group>"; };
-		B452B8C81DEE8C5500CA97FE /* BWDataCommon.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BWDataCommon.md; sourceTree = "<group>"; };
-		B452B8CA1DEE8C5500CA97FE /* BWUICommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWUICommon.h; sourceTree = "<group>"; };
-		B452B8CB1DEE8C5500CA97FE /* BWUICommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWUICommon.m; sourceTree = "<group>"; };
-		B452B8CC1DEE8C5500CA97FE /* BWUICommon.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BWUICommon.md; sourceTree = "<group>"; };
 		B452B8D41DEE8C9500CA97FE /* BMDatePickAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDatePickAlertView.h; sourceTree = "<group>"; };
 		B452B8D51DEE8C9500CA97FE /* BMDatePickAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMDatePickAlertView.m; sourceTree = "<group>"; };
 		B452B8D61DEE8C9500CA97FE /* BMDateSettingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMDateSettingView.h; sourceTree = "<group>"; };
@@ -137,6 +132,17 @@
 		B452B91C1DEFCD5F00CA97FE /* NSDate+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BWExtension.m"; sourceTree = "<group>"; };
 		B46076B21DF0131F00C8472F /* README-CodeSnippets.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README-CodeSnippets.md"; sourceTree = "<group>"; };
 		B46077611DF025F900C8472F /* BWMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
+		B4F2E8F41DF114960036A3DE /* BWAlertUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWAlertUtil.h; sourceTree = "<group>"; };
+		B4F2E8F51DF114960036A3DE /* BWAlertUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWAlertUtil.m; sourceTree = "<group>"; };
+		B4F2E8F61DF114960036A3DE /* BWAlertUtil.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BWAlertUtil.md; sourceTree = "<group>"; };
+		B4F2E8F71DF114960036A3DE /* BWDataCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWDataCommon.h; sourceTree = "<group>"; };
+		B4F2E8F81DF114960036A3DE /* BWDataCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWDataCommon.m; sourceTree = "<group>"; };
+		B4F2E8F91DF114960036A3DE /* BWDataCommon.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BWDataCommon.md; sourceTree = "<group>"; };
+		B4F2E8FA1DF114960036A3DE /* BWUICommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWUICommon.h; sourceTree = "<group>"; };
+		B4F2E8FB1DF114960036A3DE /* BWUICommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWUICommon.m; sourceTree = "<group>"; };
+		B4F2E8FC1DF114960036A3DE /* BWUICommon.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BWUICommon.md; sourceTree = "<group>"; };
+		B4F2E9031DF11AEF0036A3DE /* BWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWNavigationController.h; sourceTree = "<group>"; };
+		B4F2E9041DF11AEF0036A3DE /* BWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWNavigationController.m; sourceTree = "<group>"; };
 		C7EB57AD112B3AB124CFF289 /* Pods-BWiOSCommon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommon.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommon/Pods-BWiOSCommon.release.xcconfig"; sourceTree = "<group>"; };
 		CF1DDDEE24B3660A576A9CE9 /* Pods-BWiOSCommonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonTests/Pods-BWiOSCommonTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F54677D25AC6F8ECF0297D94 /* libPods-BWiOSCommonUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSCommonUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -305,6 +311,8 @@
 		B452B8951DEE87C900CA97FE /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				B4F2E9031DF11AEF0036A3DE /* BWNavigationController.h */,
+				B4F2E9041DF11AEF0036A3DE /* BWNavigationController.m */,
 			);
 			path = Class;
 			sourceTree = "<group>";
@@ -312,9 +320,15 @@
 		B452B8971DEE87C900CA97FE /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				B452B8C11DEE8C5500CA97FE /* AlertCommon */,
-				B452B8C51DEE8C5500CA97FE /* DataCommon */,
-				B452B8C91DEE8C5500CA97FE /* UICommon */,
+				B4F2E8F41DF114960036A3DE /* BWAlertUtil.h */,
+				B4F2E8F51DF114960036A3DE /* BWAlertUtil.m */,
+				B4F2E8F61DF114960036A3DE /* BWAlertUtil.md */,
+				B4F2E8F71DF114960036A3DE /* BWDataCommon.h */,
+				B4F2E8F81DF114960036A3DE /* BWDataCommon.m */,
+				B4F2E8F91DF114960036A3DE /* BWDataCommon.md */,
+				B4F2E8FA1DF114960036A3DE /* BWUICommon.h */,
+				B4F2E8FB1DF114960036A3DE /* BWUICommon.m */,
+				B4F2E8FC1DF114960036A3DE /* BWUICommon.md */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -383,36 +397,6 @@
 				B46076B21DF0131F00C8472F /* README-CodeSnippets.md */,
 			);
 			path = CodeSnippets;
-			sourceTree = "<group>";
-		};
-		B452B8C11DEE8C5500CA97FE /* AlertCommon */ = {
-			isa = PBXGroup;
-			children = (
-				B452B8C21DEE8C5500CA97FE /* BWAlertUtil.h */,
-				B452B8C31DEE8C5500CA97FE /* BWAlertUtil.m */,
-				B452B8C41DEE8C5500CA97FE /* BWAlertUtil.md */,
-			);
-			path = AlertCommon;
-			sourceTree = "<group>";
-		};
-		B452B8C51DEE8C5500CA97FE /* DataCommon */ = {
-			isa = PBXGroup;
-			children = (
-				B452B8C61DEE8C5500CA97FE /* BWDataCommon.h */,
-				B452B8C71DEE8C5500CA97FE /* BWDataCommon.m */,
-				B452B8C81DEE8C5500CA97FE /* BWDataCommon.md */,
-			);
-			path = DataCommon;
-			sourceTree = "<group>";
-		};
-		B452B8C91DEE8C5500CA97FE /* UICommon */ = {
-			isa = PBXGroup;
-			children = (
-				B452B8CA1DEE8C5500CA97FE /* BWUICommon.h */,
-				B452B8CB1DEE8C5500CA97FE /* BWUICommon.m */,
-				B452B8CC1DEE8C5500CA97FE /* BWUICommon.md */,
-			);
-			path = UICommon;
 			sourceTree = "<group>";
 		};
 		B452B8D31DEE8C9500CA97FE /* BMDatePickView */ = {
@@ -802,24 +786,28 @@
 				B452B8DC1DEE8C9600CA97FE /* BMDatePickAlertView.m in Sources */,
 				B452B9071DEEC63300CA97FE /* UIImage+BWExtension.m in Sources */,
 				B452B8EF1DEEBD3900CA97FE /* UIColor+BWExtension.m in Sources */,
+				B4F2E9051DF11AEF0036A3DE /* BWNavigationController.m in Sources */,
 				B452B8F61DEEBD5B00CA97FE /* NSString+BWExtension.m in Sources */,
 				B452B91D1DEFCD5F00CA97FE /* NSDate+BWExtension.m in Sources */,
+				B4F2E9001DF114960036A3DE /* BWDataCommon.md in Sources */,
 				B452B90E1DEECF3900CA97FE /* BWImageAndTitleButton.m in Sources */,
+				B4F2E8FD1DF114960036A3DE /* BWAlertUtil.m in Sources */,
 				B452B8F91DEEBF5600CA97FE /* UIViewController+BWExtension.m in Sources */,
+				B4F2E8FF1DF114960036A3DE /* BWDataCommon.m in Sources */,
 				B452B91A1DEED0A800CA97FE /* BWResearchVC.m in Sources */,
 				B452B8DD1DEE8C9600CA97FE /* BMDateSettingView.m in Sources */,
+				B4F2E9021DF114960036A3DE /* BWUICommon.md in Sources */,
 				B452B9171DEED09B00CA97FE /* BWHomeVC.m in Sources */,
-				B452B8D11DEE8C5500CA97FE /* BWUICommon.m in Sources */,
 				B452B8F01DEEBD3900CA97FE /* UIImageView+BWExtension.m in Sources */,
 				B452B9141DEED06600CA97FE /* BWBaseViewController.m in Sources */,
 				B452B8F11DEEBD3900CA97FE /* UILabel+BWExtension.m in Sources */,
 				B452B8651DEE86F900CA97FE /* AppDelegate.m in Sources */,
+				B4F2E8FE1DF114960036A3DE /* BWAlertUtil.md in Sources */,
 				B452B8621DEE86F900CA97FE /* main.m in Sources */,
 				B452B8EE1DEEBD3900CA97FE /* UIButton+BWExtension.m in Sources */,
 				B452B8F21DEEBD3900CA97FE /* UITextField+BWExtension.m in Sources */,
-				B452B8CD1DEE8C5500CA97FE /* BWAlertUtil.m in Sources */,
-				B452B8CF1DEE8C5500CA97FE /* BWDataCommon.m in Sources */,
 				B452B8F31DEEBD3900CA97FE /* UIView+BWExtension.m in Sources */,
+				B4F2E9011DF114960036A3DE /* BWUICommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

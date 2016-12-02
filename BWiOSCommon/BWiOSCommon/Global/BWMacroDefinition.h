@@ -1,6 +1,6 @@
 //
 //  BWMacroDefinition.h
-//  BWTools
+//  BWiOSCommon
 //
 //  Created by BobWong on 16/7/25.
 //  Copyright © 2016年 Bob Wong Studio. All rights reserved.
@@ -10,19 +10,16 @@
 #define BWMacroDefinition_h
 
 
-#define APPDELEGATE [(AppDelegate*)[UIApplication sharedApplication]  delegate]
+#define APP_DELEGATE [(AppDelegate*)[UIApplication sharedApplication]  delegate]
 
 //-------------------获取设备大小-------------------------
-// 状态栏高度
+
 #define STATUS_BAR_HEIGHT [UIApplication sharedApplication].statusBarFrame.size.height
 
-// 导航条高度
 #define NAVIGATION_BAR_HEIGHT 44
 
-// Tab Bar高度
 #define TAB_BAR_HEIGHT 48
 
-//获取屏幕 宽度、高度
 #define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
 #define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 #define APP_WIDTH [[UIScreen mainScreen]applicationFrame].size.width

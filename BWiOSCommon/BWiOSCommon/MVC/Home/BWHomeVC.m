@@ -26,9 +26,9 @@
 
 - (UITableView *)tableView {
     if (!_tableView) {
-        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>) style:<#UITableViewStyle#>];
-        _tableView.dataSource = <#UITableViewDataSource#>;
-        _tableView.delegate = <#UITableViewDelegate#>;
+//        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>) style:<#UITableViewStyle#>];
+//        _tableView.dataSource = <#UITableViewDataSource#>;
+//        _tableView.delegate = <#UITableViewDelegate#>;
     }
     return _tableView;
 }
