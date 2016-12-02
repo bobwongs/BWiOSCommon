@@ -1,6 +1,6 @@
 //
-//  BWAlertUtil.h
-//  BWAlertUtil
+//  BWHudUtil.h
+//  BWHudUtil
 //
 //  Created by BobWong on 15/7/29.
 //  Copyright (c) 2015年 Bob Wong Studio. All rights reserved.
@@ -10,7 +10,7 @@
 #import "UIAlertView+Blocks.h"
 
 
-@interface BWAlertUtil : NSObject
+@interface BWHudUtil : NSObject
 
 #pragma mark - Loading Indicator
 

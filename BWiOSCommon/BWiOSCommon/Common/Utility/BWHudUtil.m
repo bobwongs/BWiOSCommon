@@ -1,12 +1,12 @@
 //
-//  BWAlertUtil.m
-//  BWAlertUtil
+//  BWHudUtil.m
+//  BWHudUtil
 //
 //  Created by BobWong on 15/7/29.
 //  Copyright (c) 2015年 Bob Wong Studio. All rights reserved.
 //
 
-#import "BWAlertUtil.h"
+#import "BWHudUtil.h"
 #import "MBProgressHUD.h"
 
 
@@ -14,11 +14,11 @@
 #define HUD_OPACITY 0.8  // 透明度
 
 
-@interface BWAlertUtil ()
+@interface BWHudUtil ()
 
 @end
 
-@implementation BWAlertUtil
+@implementation BWHudUtil
 
 #pragma mark - Loading Indicator
 

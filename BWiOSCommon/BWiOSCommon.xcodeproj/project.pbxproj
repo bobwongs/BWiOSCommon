@@ -35,7 +35,7 @@
 		B452B9171DEED09B00CA97FE /* BWHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9161DEED09B00CA97FE /* BWHomeVC.m */; };
 		B452B91A1DEED0A800CA97FE /* BWResearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9191DEED0A800CA97FE /* BWResearchVC.m */; };
 		B452B91D1DEFCD5F00CA97FE /* NSDate+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B91C1DEFCD5F00CA97FE /* NSDate+BWExtension.m */; };
-		B4F2E8FD1DF114960036A3DE /* BWAlertUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F2E8F51DF114960036A3DE /* BWAlertUtil.m */; };
+		B4F2E8FD1DF114960036A3DE /* BWHudUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F2E8F51DF114960036A3DE /* BWHudUtil.m */; };
 		B4F2E8FE1DF114960036A3DE /* BWAlertUtil.md in Sources */ = {isa = PBXBuildFile; fileRef = B4F2E8F61DF114960036A3DE /* BWAlertUtil.md */; };
 		B4F2E8FF1DF114960036A3DE /* BWDataCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B4F2E8F81DF114960036A3DE /* BWDataCommon.m */; };
 		B4F2E9001DF114960036A3DE /* BWDataCommon.md in Sources */ = {isa = PBXBuildFile; fileRef = B4F2E8F91DF114960036A3DE /* BWDataCommon.md */; };
@@ -132,8 +132,8 @@
 		B452B91C1DEFCD5F00CA97FE /* NSDate+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BWExtension.m"; sourceTree = "<group>"; };
 		B46076B21DF0131F00C8472F /* README-CodeSnippets.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README-CodeSnippets.md"; sourceTree = "<group>"; };
 		B46077611DF025F900C8472F /* BWMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
-		B4F2E8F41DF114960036A3DE /* BWAlertUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWAlertUtil.h; sourceTree = "<group>"; };
-		B4F2E8F51DF114960036A3DE /* BWAlertUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWAlertUtil.m; sourceTree = "<group>"; };
+		B4F2E8F41DF114960036A3DE /* BWHudUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWHudUtil.h; sourceTree = "<group>"; };
+		B4F2E8F51DF114960036A3DE /* BWHudUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWHudUtil.m; sourceTree = "<group>"; };
 		B4F2E8F61DF114960036A3DE /* BWAlertUtil.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = BWAlertUtil.md; sourceTree = "<group>"; };
 		B4F2E8F71DF114960036A3DE /* BWDataCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWDataCommon.h; sourceTree = "<group>"; };
 		B4F2E8F81DF114960036A3DE /* BWDataCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWDataCommon.m; sourceTree = "<group>"; };
@@ -320,8 +320,8 @@
 		B452B8971DEE87C900CA97FE /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				B4F2E8F41DF114960036A3DE /* BWAlertUtil.h */,
-				B4F2E8F51DF114960036A3DE /* BWAlertUtil.m */,
+				B4F2E8F41DF114960036A3DE /* BWHudUtil.h */,
+				B4F2E8F51DF114960036A3DE /* BWHudUtil.m */,
 				B4F2E8F61DF114960036A3DE /* BWAlertUtil.md */,
 				B4F2E8F71DF114960036A3DE /* BWDataCommon.h */,
 				B4F2E8F81DF114960036A3DE /* BWDataCommon.m */,
@@ -791,7 +791,7 @@
 				B452B91D1DEFCD5F00CA97FE /* NSDate+BWExtension.m in Sources */,
 				B4F2E9001DF114960036A3DE /* BWDataCommon.md in Sources */,
 				B452B90E1DEECF3900CA97FE /* BWImageAndTitleButton.m in Sources */,
-				B4F2E8FD1DF114960036A3DE /* BWAlertUtil.m in Sources */,
+				B4F2E8FD1DF114960036A3DE /* BWHudUtil.m in Sources */,
 				B452B8F91DEEBF5600CA97FE /* UIViewController+BWExtension.m in Sources */,
 				B4F2E8FF1DF114960036A3DE /* BWDataCommon.m in Sources */,
 				B452B91A1DEED0A800CA97FE /* BWResearchVC.m in Sources */,
