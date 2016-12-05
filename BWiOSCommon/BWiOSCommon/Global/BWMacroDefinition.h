@@ -10,7 +10,13 @@
 #define BWMacroDefinition_h
 
 
-#define APP_DELEGATE [(AppDelegate*)[UIApplication sharedApplication]  delegate]
+#define APP_DELEGATE [(AppDelegate*)[UIApplication sharedApplication] delegate]
+
+#define WEAK_SELF __weak typeof(self) weakSelf = self
+#define STRONG_SELF typeof(weakSelf) __strong strongSelf = weakSelf
+
+#define weakRef(object) __weak typeof(object) weak##object = object
+#define strongRef(object)  __strong typeof(object) strong##object = object
 
 //-------------------获取设备大小-------------------------
 
