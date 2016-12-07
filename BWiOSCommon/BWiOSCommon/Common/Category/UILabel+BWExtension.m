@@ -138,6 +138,34 @@
     self.attributedText = attributedString;
 }
 
+- (void)bm_setAttributeLabelWithText:(NSString *)text
+                       formatText:(NSString *)textFormat
+                                font:(UIFont *)fontFormat
+                           textColor:(UIColor *)colorFormat
+{
+    [self bm_setAttributeLabelWithText:text formatText:textFormat attributes:@{
+                                                                               NSFontAttributeName: fontFormat,
+                                                                               NSForegroundColorAttributeName: colorFormat,
+                                                                               }];
+}
+
+- (void)bm_setAttributeLabelWithText:(NSString *)text
+                          formatText:(NSString *)textFormat
+                          attributes:(NSDictionary *)dictAttrFormat {
+    if (![text containsString:textFormat]) return ;  // 是否包含格式化文本
+    
+    NSMutableAttributedString *attrString = [[NSMutableAttributedString alloc] initWithString:text];
+    NSDictionary *dictAttrText = @{
+                                   NSFontAttributeName: self.font,
+                                   NSForegroundColorAttributeName: self.textColor
+                                   };
+    NSRange rangeFormat = [text rangeOfString:textFormat];
+    [attrString setAttributes:dictAttrText range:NSMakeRange(0, text.length)];
+    [attrString setAttributes:dictAttrFormat range:rangeFormat];
+    
+    self.attributedText = attrString;
+}
+
 #pragma mark - Tool
 
 /**

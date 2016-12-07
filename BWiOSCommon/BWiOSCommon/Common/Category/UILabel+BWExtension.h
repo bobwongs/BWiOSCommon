@@ -46,4 +46,16 @@
 - (void)bm_setAttributeLabelWithText:(NSString *)text
                             rowSpace:(CGFloat)rowSpace;
 
+/**
+ *  Set the format text
+ */
+- (void)bm_setAttributeLabelWithText:(NSString *)text
+                          formatText:(NSString *)textFormat
+                                font:(UIFont *)fontFormat
+                           textColor:(UIColor *)colorFormat;
+
+- (void)bm_setAttributeLabelWithText:(NSString *)text
+                          formatText:(NSString *)textFormat
+                          attributes:(NSDictionary *)dictAttrFormat;
+
 @end

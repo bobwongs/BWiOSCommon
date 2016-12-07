@@ -22,6 +22,12 @@
     [super viewDidLoad];
     
     self.title = @"Home";
+    
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, 200, 50)];
+    label.text = @"你有 0.00 块钱";
+    label.numberOfLines = 1;
+    [label bm_setAttributeLabelWithText:@"你有 0.00 块钱" formatText:@"0.00" font:[UIFont systemFontOfSize:25.0] textColor:[UIColor blueColor]];
+    [self.view addSubview:label];
 }
 
 - (UITableView *)tableView {
