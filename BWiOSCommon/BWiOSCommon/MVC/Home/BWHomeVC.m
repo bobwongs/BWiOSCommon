@@ -22,10 +22,6 @@
     [super viewDidLoad];
     
     self.title = @"Home";
-
-    UIButton *button = [UIButton bw_buttonWithTitle:@"确 认" titleColor:[UIColor grayColor] titleFont:[UIFont systemFontOfSize:17.0] backgroundColor:[UIColor greenColor]];
-    button.frame = CGRectMake(10, 100, 200, 50);
-    [self.view addSubview:button];
     
     return ;
     
