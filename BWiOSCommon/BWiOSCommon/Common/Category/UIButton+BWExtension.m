@@ -26,6 +26,18 @@
     return button;
 }
 
++ (UIButton *)bw_buttonWithTitle:(NSString *)titleBtn
+                      titleColor:(UIColor *)colorTitle
+                       titleFont:(UIFont *)fontTitle
+            backgroundImageColor:(UIColor *)colorBg {
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setTitle:titleBtn forState:UIControlStateNormal];
+    [button setTitleColor:colorTitle forState:UIControlStateNormal];
+    button.titleLabel.font = fontTitle;
+    [button setBackgroundImage:[[self class] imageWithColor:colorBg width:1.0 height:1.0] forState:UIControlStateNormal];
+    return button;
+}
+
 + (UIButton *)bm_buttonLeftTitleAndRightArrowWithTitle:(NSString *)title
 {
     return [UIButton bm_buttonWithLeftTitle:title rightImage:[UIImage imageNamed:@"icon_right_arrow"]];
@@ -172,6 +184,21 @@ static const char keyLabelTitle = '\0';
     
     UIColor *colorTitle = (titleInputed && ![titleInputed isEqualToString:titleDefault]) ? [UIColor blackColor] : [UIColor grayColor];
     [self setTitleColor:colorTitle forState:UIControlStateNormal];
+}
+
+#pragma mark - Tool
+
++ (UIImage *)imageWithColor:(UIColor*)color
+                      width:(CGFloat)width
+                     height:(CGFloat)height {
+    CGRect rect = CGRectMake(0.0, 0.0, width, height);
+    UIGraphicsBeginImageContext(rect.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, [color CGColor]);
+    CGContextFillRect(context, rect);
+    UIImage * image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
 }
 
 @end

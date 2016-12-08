@@ -21,6 +21,11 @@
 + (UIButton *)buttonWithNormalImage:(UIImage *)normalImage
                    highlightedImage:(UIImage *)highlightedImage;
 
++ (UIButton *)bw_buttonWithTitle:(NSString *)titleBtn
+                      titleColor:(UIColor *)colorTitle
+                       titleFont:(UIFont *)fontTitle
+            backgroundImageColor:(UIColor *)colorBg;
+
 /**
  * 创建标题在左边，箭头在右边的Button
  */
