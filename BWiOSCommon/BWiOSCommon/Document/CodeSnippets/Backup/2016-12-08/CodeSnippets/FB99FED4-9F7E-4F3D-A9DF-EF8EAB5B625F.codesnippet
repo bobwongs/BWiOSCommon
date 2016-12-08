@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUIViewControllerTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - Life Cycle
+
+- (instancetype)init
+{
+    if (self = [super init]) {
+        
+    }
+    
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    [self setData];
+    [self setUI];
+    [self setConstraints];
+    [self loadData];
+}
+
+#pragma mark - Action
+
+- (void)buttonAction:(id)sender
+{
+    
+}
+
+#pragma mark - Public Method
+
+#pragma mark - Private Method
+
+- (void)setData
+{
+    
+}
+
+- (void)setUI
+{
+    
+}
+
+- (void)setConstraints
+{
+    
+}
+
+- (void)loadData
+{
+    
+}
+
+#pragma mark - Network
+
+#pragma mark - System Delegate
+
+#pragma mark - Custom Delegate
+
+#pragma mark - Getter and Setter</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FB99FED4-9F7E-4F3D-A9DF-EF8EAB5B625F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUIViewControllerTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUIViewControllerTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

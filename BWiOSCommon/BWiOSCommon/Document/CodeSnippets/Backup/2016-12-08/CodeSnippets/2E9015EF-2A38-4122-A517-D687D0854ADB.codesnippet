@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUIWindowTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#ViewController#&gt; *&lt;#viewController#&gt; = [[&lt;#ViewController#&gt; alloc] init];
+
+self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+self.window.rootViewController = &lt;#viewController#&gt;;
+self.window.backgroundColor = [UIColor whiteColor];
+[self.window makeKeyAndVisible];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2E9015EF-2A38-4122-A517-D687D0854ADB</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUIWindowTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUIWindowTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

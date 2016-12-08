@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUIBarButtonItemTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIBarButtonItem *&lt;#item#&gt; = [[UIBarButtonItem alloc] initWithCustomView:&lt;#(nonnull UIView *)#&gt;];
+self.navigationItem.&lt;#leftOrRightBarButtonItem#&gt; = &lt;#item#&gt;;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A0ACE5CB-9F95-4BEE-A4DA-F96CDB8DD33C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUIBarButtonItemTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUIBarButtonItemTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
