@@ -23,7 +23,7 @@
 #pragma mark - Line
 
 + (UIView *)lineViewDefaultColor;   ///< Create a line with the default line color, here is [UIColor grayColor] as an example.
-- (void)bm_addLineInBottom;   ///< Add line at the bottom with the width equal to self
-- (void)bm_addLineInBottomWith10LeftOffset;  ///< Add line at the bottom with 10 offset in left
+- (UIView *)bm_addLineInBottom;   ///< Add line at the bottom with the width equal to self
+- (UIView *)bm_addLineInBottomWith10LeftOffset;  ///< Add line at the bottom with 10 offset in left
 
 @end

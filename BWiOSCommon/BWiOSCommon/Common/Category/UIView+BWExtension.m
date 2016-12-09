@@ -51,7 +51,7 @@
     return view;
 }
 
-- (void)bm_addLineInBottom {
+- (UIView *)bm_addLineInBottom {
     UIView *viewLine = [UIView lineViewDefaultColor];
     [self addSubview:viewLine];
     
@@ -63,9 +63,11 @@
 //        make.bottom.mas_equalTo(0);
 //        make.height.mas_equalTo(0.5);
 //    }];
+    
+    return viewLine;
 }
 
-- (void)bm_addLineInBottomWith10LeftOffset {
+- (UIView *)bm_addLineInBottomWith10LeftOffset {
     UIView *viewLine = [UIView lineViewDefaultColor];
     [self addSubview:viewLine];
     
@@ -77,6 +79,8 @@
 //        make.bottom.mas_equalTo(0);
 //        make.height.mas_equalTo(0.5);
 //    }];
+    
+    return viewLine;
 }
 
 @end
