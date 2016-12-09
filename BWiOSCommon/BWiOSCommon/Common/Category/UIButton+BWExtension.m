@@ -186,6 +186,20 @@ static const char keyLabelTitle = '\0';
     [self setTitleColor:colorTitle forState:UIControlStateNormal];
 }
 
++ (UIButton *)bm_buttonWithTitle:(NSString *)title
+                       titleFont:(UIFont *)fontTitle
+                      titleColor:(UIColor *)colorTitle
+                     normalImage:(UIImage *)imageNormal
+                highlightedImage:(UIImage *)imageHighlighted {
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setTitle:title forState:UIControlStateNormal];
+    [button setTitleColor:colorTitle forState:UIControlStateNormal];
+    button.titleLabel.font = fontTitle;
+    [button setImage:imageNormal forState:UIControlStateNormal];
+    if (imageHighlighted) [button setImage:imageHighlighted forState:UIControlStateHighlighted];
+    return button;
+}
+
 #pragma mark - Tool
 
 + (UIImage *)imageWithColor:(UIColor*)color

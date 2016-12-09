@@ -52,4 +52,13 @@
 - (void)bm_setButtonWithInputedTitle:(NSString *)titleInputed
                         defaultTitle:(NSString *)titleDefault;  //!< 给按钮设置文本，titleInputed不为空则显示titleInputed，为空则显示titleDefault
 
+/**
+ * 创建Button，Title + Image
+ */
++ (UIButton *)bm_buttonWithTitle:(NSString *)title
+                       titleFont:(UIFont *)fontTitle
+                      titleColor:(UIColor *)colorTitle
+                     normalImage:(UIImage *)imageNormal
+                highlightedImage:(UIImage *)imageHighlighted;
+
 @end
