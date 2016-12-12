@@ -83,4 +83,25 @@
     return viewLine;
 }
 
+- (NSArray *)bw_addLinesAtTopAndBottom {
+    UIView *viewTop = [[UIView alloc] init];
+    viewTop.backgroundColor = [UIColor grayColor];
+    [self addSubview:viewTop];
+    
+    UIView *viewBottom = [[UIView alloc] init];
+    viewBottom.backgroundColor = [UIColor grayColor];
+    [self addSubview:viewBottom];
+    
+    [viewTop mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.top.mas_equalTo(0);
+        make.height.mas_equalTo(0.5);
+    }];
+    [viewBottom mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.right.bottom.mas_equalTo(0);
+        make.height.mas_equalTo(0.5);
+    }];
+    
+    return @[viewTop, viewBottom];
+}
+
 @end

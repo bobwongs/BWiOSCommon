@@ -16,5 +16,6 @@
 
 #import "BWMacroDefinition.h"
 #import "BWCategories.h"
+#import "Masonry.h"
 
 #endif /* BWiOSCommon_pch */

@@ -26,4 +26,6 @@
 - (UIView *)bm_addLineInBottom;   ///< Add line at the bottom with the width equal to self
 - (UIView *)bm_addLineInBottomWith10LeftOffset;  ///< Add line at the bottom with 10 offset in left
 
+- (NSArray *)bw_addLinesAtTopAndBottom;  ///< Add top and bottom lines in the view, return the line array, the top line is at the first, and the bottom line is at the second.
+
 @end
