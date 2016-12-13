@@ -14,12 +14,29 @@
 
 #pragma mark - Create textfield
 
-+ (UITextField *)textFieldBorderStyleNoneClearButtonModeWhileEditingWithPlaceHolder:(NSString *)placeholder
++ (UITextField *)bw_textFieldBorderStyleNoneClearButtonModeWhileEditingWithPlaceHolder:(NSString *)placeholder
 {
     UITextField *textField = [[UITextField alloc] init];
     textField.placeholder = placeholder;
     textField.borderStyle = UITextBorderStyleNone;
     textField.clearButtonMode = UITextFieldViewModeWhileEditing;  // Set the clear button appear time
+    return textField;
+}
+
++ (UITextField *)bw_textFieldBorderStyleNoneClearButtonModeWhileEditingWithPlaceholder:(NSString *)placeholder holderColor:(UIColor *)colorHolder holderFont:(UIFont *)fontHolder textColor:(UIColor *)colorText textFont:(UIFont *)fontText {
+    UITextField *textField = [[UITextField alloc] init];
+    textField.borderStyle = UITextBorderStyleNone;
+    textField.clearButtonMode = UITextFieldViewModeWhileEditing;  // Set the clear button appear time
+    textField.textColor = colorText;
+    textField.font = fontText;
+    // Place Holder
+    NSDictionary *attributes = @{
+                                 NSForegroundColorAttributeName: colorHolder,
+                                 NSFontAttributeName: fontHolder
+                                 };
+    NSAttributedString *attrStr = [[NSAttributedString alloc] initWithString:placeholder attributes:attributes];
+    textField.attributedPlaceholder = attrStr;
+    
     return textField;
 }
 

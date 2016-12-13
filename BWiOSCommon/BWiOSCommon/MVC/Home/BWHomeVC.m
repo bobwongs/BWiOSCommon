@@ -23,6 +23,17 @@
     
     self.title = @"Home";
     
+    UITextField *tf = [UITextField bw_textFieldBorderStyleNoneClearButtonModeWhileEditingWithPlaceholder:@"请输入" holderColor:[UIColor blueColor] holderFont:[UIFont systemFontOfSize:12.0] textColor:[UIColor blackColor] textFont:[UIFont systemFontOfSize:12.0]];
+    tf.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:tf];
+    
+    [tf mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(10);
+        make.width.mas_equalTo(200);
+        make.top.mas_equalTo(100);
+        make.height.mas_equalTo(50);
+    }];
+    
     return ;
     
 //    NSString *text = @"你有 0.00 块钱";

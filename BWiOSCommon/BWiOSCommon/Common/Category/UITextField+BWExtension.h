@@ -12,7 +12,9 @@
 
 #pragma mark - Create textfield
 
-+ (UITextField *)textFieldBorderStyleNoneClearButtonModeWhileEditingWithPlaceHolder:(NSString *)placeholder;
++ (UITextField *)bw_textFieldBorderStyleNoneClearButtonModeWhileEditingWithPlaceHolder:(NSString *)placeholder;
+
++ (UITextField *)bw_textFieldBorderStyleNoneClearButtonModeWhileEditingWithPlaceholder:(NSString *)placeholder holderColor:(UIColor *)colorHolder holderFont:(UIFont *)fontHolder textColor:(UIColor *)colorText textFont:(UIFont *)fontText;
 
 #pragma mark - Limit textfield input
 
