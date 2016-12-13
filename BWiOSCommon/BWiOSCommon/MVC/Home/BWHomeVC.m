@@ -18,23 +18,40 @@
 
 @implementation BWHomeVC
 
+- (void)buttonAct:(UIButton *)sender
+{
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.title = @"Home";
+
+    UIButton *button = [UIButton bm_buttonTitleUnderLineWithTitle:@"查看" titleColor:[UIColor blueColor] titleFont:[UIFont systemFontOfSize:17.0]];
+    [button addTarget:self action:@selector(buttonAct:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
     
-    UITextField *tf = [UITextField bw_textFieldBorderStyleNoneClearButtonModeWhileEditingWithPlaceholder:@"请输入" holderColor:[UIColor blueColor] holderFont:[UIFont systemFontOfSize:12.0] textColor:[UIColor blackColor] textFont:[UIFont systemFontOfSize:12.0]];
-    tf.backgroundColor = [UIColor greenColor];
-    [self.view addSubview:tf];
-    
-    [tf mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(10);
-        make.width.mas_equalTo(200);
+    [button mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(12);
+        make.right.mas_equalTo(-20);
         make.top.mas_equalTo(100);
         make.height.mas_equalTo(50);
     }];
     
     return ;
+    
+    
+//    UITextField *tf = [UITextField bw_textFieldBorderStyleNoneClearButtonModeWhileEditingWithPlaceholder:@"请输入" holderColor:[UIColor blueColor] holderFont:[UIFont systemFontOfSize:12.0] textColor:[UIColor blackColor] textFont:[UIFont systemFontOfSize:12.0]];
+//    tf.backgroundColor = [UIColor greenColor];
+//    [self.view addSubview:tf];
+//    
+//    [tf mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(10);
+//        make.width.mas_equalTo(200);
+//        make.top.mas_equalTo(100);
+//        make.height.mas_equalTo(50);
+//    }];
     
 //    NSString *text = @"你有 0.00 块钱";
 //    NSString *textChange = @"0.00";

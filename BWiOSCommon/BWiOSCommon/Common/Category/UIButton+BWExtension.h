@@ -43,6 +43,9 @@
 + (UIButton *)bm_buttonWithTitle:(NSString *)titleButton
                       titleColor:(UIColor *)colorTitle
                        titleFont:(UIFont *)fontTitle;  //!< 创建Button，设置Title的文本、颜色、字体
++ (UIButton *)bm_buttonTitleUnderLineWithTitle:(NSString *)titleButton
+                                    titleColor:(UIColor *)colorTitle
+                                     titleFont:(UIFont *)fontTitle;
 
 - (UIButton *)bm_initWithContactNumber:(NSString *)contactNumber;  //!< 创建拨打电话按钮
 - (void)bm_setButtonTitleWithContactNumber:(NSString *)contactNumber;  //!< 修改拨打电话按钮文本

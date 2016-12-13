@@ -77,6 +77,23 @@
     return button;
 }
 
++ (UIButton *)bm_buttonTitleUnderLineWithTitle:(NSString *)titleButton
+                                    titleColor:(UIColor *)colorTitle
+                                     titleFont:(UIFont *)fontTitle
+{
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:titleButton];
+    NSDictionary *dictAttr = @{
+                               NSFontAttributeName: fontTitle,
+                               NSForegroundColorAttributeName: colorTitle,
+                               NSUnderlineStyleAttributeName: [NSNumber numberWithInteger:NSUnderlineStyleSingle]
+                               };
+    [attributedString setAttributes:dictAttr range:NSMakeRange(0, attributedString.length)];
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setAttributedTitle:attributedString forState:UIControlStateNormal];
+    return button;
+}
+
 static const char keyLabelTitle = '\0';
 - (void)setLabelTitle:(UILabel *)labelTitle
 {
