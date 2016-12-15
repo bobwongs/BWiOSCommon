@@ -28,18 +28,35 @@
     
     self.title = @"Home";
 
-    UIButton *button = [UIButton bm_buttonTitleUnderLineWithTitle:@"查看" titleColor:[UIColor blueColor] titleFont:[UIFont systemFontOfSize:17.0]];
-    [button addTarget:self action:@selector(buttonAct:) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:button];
+    NSString *text = @"你有 0.00 块钱";
+    NSString *textChange = @"0.00";
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, 200, 50)];
+    label.text = text;
+    label.numberOfLines = 1;
+//    [label bw_setAttributeLabelWithText:@"你有 0.00 块钱" formatText:textChange font:[UIFont systemFontOfSize:25.0] textColor:[UIColor blueColor]];
     
-    [button mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(12);
-        make.right.mas_equalTo(-20);
-        make.top.mas_equalTo(100);
-        make.height.mas_equalTo(50);
-    }];
+    [label bw_setAttributeLabelWithText:text normalColor:[UIColor grayColor] normalFont:[UIFont systemFontOfSize:12.0] highlightedText:textChange highlightedColor:[UIColor greenColor] highlightedFont:[UIFont systemFontOfSize:20.0]];
     
-    return ;
+    NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithAttributedString:label.attributedText];
+    [attrStr setAttributes:@{NSForegroundColorAttributeName: [UIColor blueColor]} range:NSMakeRange(0, attrStr.length)];
+    
+    label.attributedText = attrStr;
+    
+    [self.view addSubview:label];
+
+    
+//    UIButton *button = [UIButton bm_buttonTitleUnderLineWithTitle:@"查看" titleColor:[UIColor blueColor] titleFont:[UIFont systemFontOfSize:17.0]];
+//    [button addTarget:self action:@selector(buttonAct:) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:button];
+//    
+//    [button mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(12);
+//        make.right.mas_equalTo(-20);
+//        make.top.mas_equalTo(100);
+//        make.height.mas_equalTo(50);
+//    }];
+//    
+//    return ;
     
     
 //    UITextField *tf = [UITextField bw_textFieldBorderStyleNoneClearButtonModeWhileEditingWithPlaceholder:@"请输入" holderColor:[UIColor blueColor] holderFont:[UIFont systemFontOfSize:12.0] textColor:[UIColor blackColor] textFont:[UIFont systemFontOfSize:12.0]];
@@ -60,7 +77,7 @@
 //    label.numberOfLines = 1;
 //    [label bm_setAttributeLabelWithText:@"你有 0.00 块钱" formatText:textChange font:[UIFont systemFontOfSize:25.0] textColor:[UIColor blueColor]];
 //    [self.view addSubview:label];
-//    
+//
 //    NSRange range = [text rangeOfString:textChange];
 //    NSMutableAttributedString *attrStr = [[NSMutableAttributedString alloc] initWithAttributedString:label.attributedText];
 //    [attrStr replaceCharactersInRange:range withString:@"96.00"];

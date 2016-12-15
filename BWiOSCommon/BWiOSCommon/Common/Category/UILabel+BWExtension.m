@@ -101,7 +101,7 @@
     self.textColor = colorTitle;
 }
 
-- (void)bm_setHightlightText:(NSString *)text
+- (void)bw_setHightlightText:(NSString *)text
                    textColor:(UIColor *)colorText
                     textFont:(UIFont *)fontText
                  description:(NSString *)description
@@ -126,7 +126,31 @@
     self.attributedText = attributedString;
 }
 
-- (void)bm_setAttributeLabelWithText:(NSString *)text rowSpace:(CGFloat)rowSpace {
+- (void)bw_setAttributeLabelWithText:(NSString *)text
+                         normalColor:(UIColor *)colorNormal
+                          normalFont:(UIFont *)fontNormal
+                     highlightedText:(NSString *)textHighlighted
+                    highlightedColor:(UIColor *)colorHighlighted
+                     highlightedFont:(UIFont *)fontHighlighted
+{
+    NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:text];
+    NSDictionary *dictAttrNormal = @{
+                                     NSFontAttributeName: fontNormal,
+                                     NSForegroundColorAttributeName: colorNormal
+                                     };
+    NSDictionary *dictAttrHighlighted = @{
+                                          NSFontAttributeName: fontHighlighted,
+                                          NSForegroundColorAttributeName: colorHighlighted
+                                          };
+    
+    NSRange rangeHighlighted = [text rangeOfString:textHighlighted];
+    [attributedString setAttributes:dictAttrNormal range:NSMakeRange(0, text.length)];
+    [attributedString setAttributes:dictAttrHighlighted range:rangeHighlighted];
+    
+    self.attributedText = attributedString;
+}
+
+- (void)bw_setAttributeLabelWithText:(NSString *)text rowSpace:(CGFloat)rowSpace {
     NSMutableParagraphStyle *style = [[NSMutableParagraphStyle alloc] init];
     [style setLineSpacing:rowSpace];
     NSDictionary *dictAttr = @{
@@ -138,18 +162,18 @@
     self.attributedText = attributedString;
 }
 
-- (void)bm_setAttributeLabelWithText:(NSString *)text
+- (void)bw_setAttributeLabelWithText:(NSString *)text
                        formatText:(NSString *)textFormat
                                 font:(UIFont *)fontFormat
                            textColor:(UIColor *)colorFormat
 {
-    [self bm_setAttributeLabelWithText:text formatText:textFormat attributes:@{
+    [self bw_setAttributeLabelWithText:text formatText:textFormat attributes:@{
                                                                                NSFontAttributeName: fontFormat,
                                                                                NSForegroundColorAttributeName: colorFormat,
                                                                                }];
 }
 
-- (void)bm_setAttributeLabelWithText:(NSString *)text
+- (void)bw_setAttributeLabelWithText:(NSString *)text
                           formatText:(NSString *)textFormat
                           attributes:(NSDictionary *)dictAttrFormat {
     if (![text containsString:textFormat]) return ;  // 是否包含格式化文本

@@ -33,28 +33,35 @@
 /**
  Set the description and the text in different style, such as "Money: 12.00", the style of "Money" and "12.00" is different
  */
-- (void)bm_setHightlightText:(NSString *)text
+- (void)bw_setHightlightText:(NSString *)text
                    textColor:(UIColor *)colorText
                     textFont:(UIFont *)fontText
                  description:(NSString *)description
             descriptionColor:(UIColor *)colorDesc
              descriptionFont:(UIFont *)fontDesc;
 
+- (void)bw_setAttributeLabelWithText:(NSString *)text
+                         normalColor:(UIColor *)colorNormal
+                          normalFont:(UIFont *)fontNormal
+                     highlightedText:(NSString *)textHighlighted
+                    highlightedColor:(UIColor *)colorHighlighted
+                     highlightedFont:(UIFont *)fontHighlighted;
+
 /**
  Set the line space of the text in label, use the rich text
  */
-- (void)bm_setAttributeLabelWithText:(NSString *)text
+- (void)bw_setAttributeLabelWithText:(NSString *)text
                             rowSpace:(CGFloat)rowSpace;
 
 /**
  *  Set the format text
  */
-- (void)bm_setAttributeLabelWithText:(NSString *)text
+- (void)bw_setAttributeLabelWithText:(NSString *)text
                           formatText:(NSString *)textFormat
                                 font:(UIFont *)fontFormat
                            textColor:(UIColor *)colorFormat;
 
-- (void)bm_setAttributeLabelWithText:(NSString *)text
+- (void)bw_setAttributeLabelWithText:(NSString *)text
                           formatText:(NSString *)textFormat
                           attributes:(NSDictionary *)dictAttrFormat;
 
