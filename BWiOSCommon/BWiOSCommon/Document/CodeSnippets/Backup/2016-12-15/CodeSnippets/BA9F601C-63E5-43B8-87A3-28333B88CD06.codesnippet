@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BMAPIManagerCallBackDelegateMethodTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)managerCallApiDidSuccess:(BMBaseAPIManager *)manager {
+    [SVProgressHUD dismiss];
+    NSDictionary *responseData = [manager fetchDataWithReformer:nil];
+}
+
+- (void)managerCallApiDidFailed:(BMBaseAPIManager *)manager {
+    [SVProgressHUD dismiss];
+    [BMPromptMessage showPromptMessageWithManager:manager];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BA9F601C-63E5-43B8-87A3-28333B88CD06</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BMAPIManagerCallBackDelegateMethodTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BMAPIManagerCallBackDelegateMethodTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

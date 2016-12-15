@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUIViewTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIView *&lt;#view#&gt; = [[UIView alloc] init];
+&lt;#view#&gt;.backgroundColor = &lt;#UIColor *#&gt;;
+[&lt;#superview#&gt; addSubview:&lt;#view#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1DC46172-9814-406E-8A77-1E69DF16387A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUIViewTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUIViewTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

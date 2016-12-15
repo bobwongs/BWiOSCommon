@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUITableViewCellClassTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark - 生命周期
+
+- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
+    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+        CGRect frame = self.frame;
+        frame.size.width = SCREEN_WIDTH;
+        self.frame = frame;
+        
+        [self setUI];
+        [self setConstraints];
+    }
+    return self;
+}
+
+#pragma mark - Getter and Setter
+
+#pragma mark - 事件响应
+
+#pragma mark - 共有方法
+
+#pragma mark - 私有方法
+
+- (void)setUI {
+    
+}
+
+- (void)setConstraints {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>76FE0D59-82AA-4219-A9F0-B0E39CD77787</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUITableViewCellClassTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUITableViewCellClassTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
