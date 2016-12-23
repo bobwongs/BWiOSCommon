@@ -28,6 +28,6 @@
  */
 + (CGFloat)widthForString:(NSString*)string
                      font:(UIFont*)font;
-
+- (CGFloat)bw_widthForFont:(UIFont *)font;
 
 @end

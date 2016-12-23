@@ -42,4 +42,10 @@
     return ceilf(sizeToFit.width);
 }
 
+- (CGFloat)bw_widthForFont:(UIFont *)font
+{
+    CGSize sizeToFit = [self sizeWithAttributes:@{NSFontAttributeName: font}];
+    return ceilf(sizeToFit.width);
+}
+
 @end

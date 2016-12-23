@@ -10,6 +10,8 @@ target 'BWiOSCommon' do
   pod 'Masonry'
   pod 'MBProgressHUD', '~> 1.0.0'
   pod 'YYCategories'
+  pod 'YYText', '1.0.7'   #富文本
+#  pod 'IQKeyboardManager' #键盘日志
 
   target 'BWiOSCommonTests' do
     inherit! :search_paths

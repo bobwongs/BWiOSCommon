@@ -20,6 +20,7 @@
 #import "UITextField+BWExtension.h"
 #import "UIButton+BWExtension.h"
 #import "UIImageView+BWExtension.h"
+#import "UITextView+BMExtension.h"
 
 #import "UIViewController+BWExtension.h"
 
