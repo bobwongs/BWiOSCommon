@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		089E39D9F8A99D0B2129B732 /* libPods-BWiOSCommonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F54677D25AC6F8ECF0297D94 /* libPods-BWiOSCommonUITests.a */; };
 		69FE2A5CB62908D4FCB2FFBD /* libPods-BWiOSCommonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEF60A1165236B5E9AE8B37 /* libPods-BWiOSCommonTests.a */; };
+		B41094091E10E86500D59621 /* BWAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B41094081E10E86500D59621 /* BWAddressBookManager.m */; };
+		B410940C1E10E87800D59621 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B410940A1E10E87800D59621 /* AddressBook.framework */; };
+		B410940D1E10E87800D59621 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B410940B1E10E87800D59621 /* AddressBookUI.framework */; };
+		B41094101E10E88100D59621 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B410940E1E10E88100D59621 /* Contacts.framework */; };
+		B41094111E10E88100D59621 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B410940F1E10E88100D59621 /* ContactsUI.framework */; };
 		B452B8621DEE86F900CA97FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8611DEE86F900CA97FE /* main.m */; };
 		B452B8651DEE86F900CA97FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8641DEE86F900CA97FE /* AppDelegate.m */; };
 		B452B86D1DEE86F900CA97FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B452B86C1DEE86F900CA97FE /* Assets.xcassets */; };
@@ -88,6 +93,12 @@
 		487153065B701AADAA193281 /* Pods-BWiOSCommonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonUITests/Pods-BWiOSCommonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DEF60A1165236B5E9AE8B37 /* libPods-BWiOSCommonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSCommonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FC03C7002CC5E586DD5D08 /* Pods-BWiOSCommonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonTests/Pods-BWiOSCommonTests.release.xcconfig"; sourceTree = "<group>"; };
+		B41094071E10E86500D59621 /* BWAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWAddressBookManager.h; sourceTree = "<group>"; };
+		B41094081E10E86500D59621 /* BWAddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWAddressBookManager.m; sourceTree = "<group>"; };
+		B410940A1E10E87800D59621 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B410940B1E10E87800D59621 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		B410940E1E10E88100D59621 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		B410940F1E10E88100D59621 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
 		B452B85D1DEE86F900CA97FE /* BWiOSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWiOSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B452B8611DEE86F900CA97FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B452B8631DEE86F900CA97FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -210,6 +221,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41094101E10E88100D59621 /* Contacts.framework in Frameworks */,
+				B41094111E10E88100D59621 /* ContactsUI.framework in Frameworks */,
+				B410940C1E10E87800D59621 /* AddressBook.framework in Frameworks */,
+				B410940D1E10E87800D59621 /* AddressBookUI.framework in Frameworks */,
 				BA64B521D5564DD533FE189E /* libPods-BWiOSCommon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +251,10 @@
 		05722E70DE88A4421C920ECE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B410940E1E10E88100D59621 /* Contacts.framework */,
+				B410940F1E10E88100D59621 /* ContactsUI.framework */,
+				B410940A1E10E87800D59621 /* AddressBook.framework */,
+				B410940B1E10E87800D59621 /* AddressBookUI.framework */,
 				1DD628FF903B6604FE5D293F /* libPods-BWiOSCommon.a */,
 				7DEF60A1165236B5E9AE8B37 /* libPods-BWiOSCommonTests.a */,
 				F54677D25AC6F8ECF0297D94 /* libPods-BWiOSCommonUITests.a */,
@@ -254,6 +273,15 @@
 				3C17191C9854F3C31DC72397 /* Pods-BWiOSCommonUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B41094061E10E86500D59621 /* BWAddressBookManager */ = {
+			isa = PBXGroup;
+			children = (
+				B41094071E10E86500D59621 /* BWAddressBookManager.h */,
+				B41094081E10E86500D59621 /* BWAddressBookManager.m */,
+			);
+			path = BWAddressBookManager;
 			sourceTree = "<group>";
 		};
 		B452B8541DEE86F900CA97FE = {
@@ -392,6 +420,7 @@
 				B4F2E8FC1DF114960036A3DE /* BWUICommon.md */,
 				B4F2E9061DF11BFB0036A3DE /* BWUtility.h */,
 				B4F2E9071DF11BFB0036A3DE /* BWUtility.m */,
+				B41094061E10E86500D59621 /* BWAddressBookManager */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -965,6 +994,7 @@
 				B4F2E9021DF114960036A3DE /* BWUICommon.md in Sources */,
 				B452B9171DEED09B00CA97FE /* BWHomeVC.m in Sources */,
 				B452B8F01DEEBD3900CA97FE /* UIImageView+BWExtension.m in Sources */,
+				B41094091E10E86500D59621 /* BWAddressBookManager.m in Sources */,
 				B452B9141DEED06600CA97FE /* BWBaseViewController.m in Sources */,
 				B452B8F11DEEBD3900CA97FE /* UILabel+BWExtension.m in Sources */,
 				B47A37D01E03926800E130AA /* UITextView+BMExtension.m in Sources */,

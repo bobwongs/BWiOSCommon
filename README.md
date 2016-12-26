@@ -10,6 +10,7 @@ iOS Common: Macro, Category, Class, Utility, View
 - Utility
 - View
 - Reference
+- 修改日志
 - Follow Me
 
 ## 概述
@@ -41,6 +42,12 @@ BWMacroDefinition.h
 ## Reference
 
 YYCategory: https://github.com/ibireme/YYCategories
+
+## 修改日志
+
+2016-12-26
+
+> 增加BWAddressBookManager，通讯录Manager
 
 ## Follow Me
 
