@@ -1,5 +1,5 @@
 //
-//  BWCodeSnippetsController.h
+//  BWCodeSnippetsTemplateCodeInViewController.h
 //  BWCodeSnippets
 //
 //  Created by BobWong on 16/8/19.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BWCodeSnippetsController : UIViewController
+@interface BWCodeSnippetsTemplateCodeInViewController : UIViewController
 
 @end

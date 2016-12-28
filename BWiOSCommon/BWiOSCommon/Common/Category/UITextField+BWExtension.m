@@ -152,4 +152,10 @@ static NSString *kLimitTextLengthKey = @"kLimitTextLengthKey";
     return YES;
 }
 
++ (BOOL)bw_userNameTextField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
+    if (string.length == 0) return YES;
+    
+    return [BWVerifyUtil validateUserNameInputString:string];
+}
+
 @end

@@ -17,11 +17,12 @@
 #import "YYTextView+BWExtension.h"
 #import "IQTitleBarButtonItem.h"
 
-//#define kUITextView
+#define kUITextView
 
-@interface BWHomeVC () <UITableViewDataSource, UITableViewDelegate, UITextViewDelegate, YYTextViewDelegate>
+@interface BWHomeVC () <UITableViewDataSource, UITableViewDelegate, UITextViewDelegate, YYTextViewDelegate, UITextFieldDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) UIScrollView *scrollView;
 
 @property (nonatomic, strong) NSArray *dataSource;
 
@@ -43,7 +44,7 @@
 - (void)textViewDidChange:(UITextView *)textView {
     //    textView.textContainerInset = UIEdgeInsetsMake(8, 0, 8, 0);
     
-    CGFloat h = textView.contentSize.height;
+    CGFloat h = textView.contentSize.height + 8 * 2;
     
     [UIView animateWithDuration:.25 animations:^{
         [textView mas_updateConstraints:^(MASConstraintMaker *make) {
@@ -53,6 +54,10 @@
         [self.view setNeedsLayout];
         [self.view layoutIfNeeded];
         
+    } completion:^(BOOL finished) {
+        if (finished) {
+            [self.scrollView scrollToBottomAnimated:NO];
+        }
     }];
     
     NSLog(@"h_single is %f", h);
@@ -85,21 +90,53 @@
     [self.view endEditing:YES];
 }
 
+- (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
+    return [UITextField bw_userNameTextField:textField shouldChangeCharactersInRange:range replacementString:string];
+}
+
+- (void)didChange:(NSNotification *)notification {
+    UITextField *textfield = notification.object;
+}
+
+- (void)textViewDidChangeNotification:(NSNotification *)notification {
+    UITextView *textView = notification.object;
+    NSLog(@"textViewDidChangeNotification");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     self.title = @"Home";
     self.automaticallyAdjustsScrollViewInsets = NO;
+    self.edgesForExtendedLayout = UIRectEdgeNone;
 
     [IQKeyboardManager sharedManager].enable = YES;
     [IQKeyboardManager sharedManager].canAdjustTextView = YES;
+    
+    
+//    UITextField *textField = [[UITextField alloc] init];
+//    textField.delegate = self;
+//    textField.backgroundColor = [UIColor greenColor];
+//    [self.view addSubview:textField];
+//    [textField mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.mas_equalTo(30);
+//        make.right.mas_equalTo(-30);
+//        make.bottom.mas_equalTo(0);
+//        make.height.mas_equalTo(50);
+//    }];
+//    
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didChange:) name:UITextFieldTextDidChangeNotification object:nil];
+    
+//    return;
+    
     
     UIFont *font = [UIFont systemFontOfSize:14.0];
     CGFloat h_single = [@"好" heightForFont:font width:100.0];
     NSLog(@"h_single is %f", h_single);
     
     
-    UIView *viewContainer = [[UIView alloc] init];
+    UIScrollView *viewContainer = [[UIScrollView alloc] init];
+    self.scrollView = viewContainer;
     viewContainer.backgroundColor = [UIColor grayColor];
     [self.view addSubview:viewContainer];
     
@@ -139,6 +176,8 @@
     
 #else
     
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(textViewDidChangeNotification:) name:UITextViewTextDidChangeNotification object:nil];
+    
     UITextView *textView = [[UITextView alloc] init];
     textView.delegate = self;
     textView.font = [UIFont systemFontOfSize:15];
@@ -157,16 +196,18 @@
     
     [textView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(20);
-        make.width.mas_equalTo(150);
+        make.width.mas_equalTo([UIScreen mainScreen].bounds.size.width - 20 * 2);
         make.top.mas_equalTo(10);
-        make.height.mas_equalTo(height);
-//        make.height.mas_equalTo(18);
+        make.height.mas_equalTo(h_single + 8 * 2);
     }];
     
     [viewContainer mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.mas_equalTo(20);
-        make.right.mas_equalTo(-20);
-        make.top.mas_equalTo(100);
+        make.left.mas_equalTo(0);
+        make.right.mas_equalTo(0);
+        make.top.mas_equalTo(0);
+        make.bottom.mas_equalTo(0);
+        
+        make.right.mas_equalTo(textView.mas_right);
         make.bottom.mas_equalTo(textView).offset(20);
     }];
     

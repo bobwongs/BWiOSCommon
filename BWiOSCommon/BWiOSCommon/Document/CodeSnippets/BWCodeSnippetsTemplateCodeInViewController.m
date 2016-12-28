@@ -1,12 +1,12 @@
 //
-//  BWCodeSnippetsController.m
+//  BBWCodeSnippetsTemplateCodeInViewController.m
 //  BWCodeSnippets
 //
 //  Created by BobWong on 16/8/19.
 //  Copyright © 2016年 Bob Wong Studio. All rights reserved.
 //
 
-#import "BWCodeSnippetsController.h"
+#import "BWCodeSnippetsTemplateCodeInViewController.h"
 
 /*
  Protocol Code Snippets
@@ -17,30 +17,22 @@
 
 @implementation BWCodeSnippetsController
 
-/*--------------------------------------
-    BWUIViewControllerTemplateCode
---------------------------------------*/
 
-#pragma mark - Life Cycle
+#pragma mark - View Cycle
 
-- (instancetype)init
-{
-    if (self = [super init]) {
-        
-    }
-    
-    return self;
-}
-
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     
+    self.title = <#NSString *#>;
+    
     [self setData];
+    [self setNavigationBar];
     [self setUI];
     [self setConstraints];
     [self loadData];
 }
+
+#pragma mark - Public Method
 
 #pragma mark - Action
 
@@ -49,13 +41,27 @@
     
 }
 
-#pragma mark - Public Method
+#pragma mark - Network
+
+#pragma mark - Custom Delegate
+
+#pragma mark - System Delegate
 
 #pragma mark - Private Method
 
 - (void)setData
 {
     
+}
+
+/*----------------------------------------------------------
+ BWSetNavigationBarTemplate
+ ---------------------------------------------------------*/
+- (void)setNavigationBar {
+    <#Set Custom View#>
+    
+    UIBarButtonItem *<#item#> = [[UIBarButtonItem alloc] initWithCustomView:<#(nonnull UIView *)#>];
+    self.navigationItem.<#leftOrRightBarButtonItem#> = <#item#>;
 }
 
 - (void)setUI
@@ -68,18 +74,23 @@
     
 }
 
+/*----------------------------------------------------------
+ BWLoadData
+ ---------------------------------------------------------*/
 - (void)loadData
 {
+    <#Set Loading#>
     
+    // ---------- BWSetNetworkParametersTemplate ----------
+    NSDictionary *params = @{
+                             @"<#key#>": <#value#>,
+                             @"<#key#>": <#value#>
+                             };
+    <#Networking#>
 }
 
-#pragma mark - Network
-
-#pragma mark - System Delegate
-
-#pragma mark - Custom Delegate
-
 #pragma mark - Getter and Setter
+
 
 /*-------------------------------------------------------------------*/
 

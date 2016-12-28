@@ -14,6 +14,7 @@
 		B410940D1E10E87800D59621 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B410940B1E10E87800D59621 /* AddressBookUI.framework */; };
 		B41094101E10E88100D59621 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B410940E1E10E88100D59621 /* Contacts.framework */; };
 		B41094111E10E88100D59621 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B410940F1E10E88100D59621 /* ContactsUI.framework */; };
+		B41094191E10FC9600D59621 /* BWVerifyUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B41094181E10FC9600D59621 /* BWVerifyUtil.m */; };
 		B452B8621DEE86F900CA97FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8611DEE86F900CA97FE /* main.m */; };
 		B452B8651DEE86F900CA97FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B8641DEE86F900CA97FE /* AppDelegate.m */; };
 		B452B86D1DEE86F900CA97FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B452B86C1DEE86F900CA97FE /* Assets.xcassets */; };
@@ -40,7 +41,7 @@
 		B452B9171DEED09B00CA97FE /* BWHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9161DEED09B00CA97FE /* BWHomeVC.m */; };
 		B452B91A1DEED0A800CA97FE /* BWResearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9191DEED0A800CA97FE /* BWResearchVC.m */; };
 		B452B91D1DEFCD5F00CA97FE /* NSDate+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B91C1DEFCD5F00CA97FE /* NSDate+BWExtension.m */; };
-		B47A37D01E03926800E130AA /* UITextView+BMExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B47A37CF1E03926800E130AA /* UITextView+BMExtension.m */; };
+		B47A37D01E03926800E130AA /* UITextView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B47A37CF1E03926800E130AA /* UITextView+BWExtension.m */; };
 		B4D3DC7E1E0CC4F7005D96C5 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D3DC5B1E0CC4F7005D96C5 /* IQNSArray+Sort.m */; };
 		B4D3DC7F1E0CC4F7005D96C5 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D3DC5D1E0CC4F7005D96C5 /* IQUIScrollView+Additions.m */; };
 		B4D3DC801E0CC4F7005D96C5 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D3DC5F1E0CC4F7005D96C5 /* IQUITextFieldView+Additions.m */; };
@@ -99,6 +100,10 @@
 		B410940B1E10E87800D59621 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		B410940E1E10E88100D59621 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		B410940F1E10E88100D59621 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		B41094171E10FC9600D59621 /* BWVerifyUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWVerifyUtil.h; sourceTree = "<group>"; };
+		B41094181E10FC9600D59621 /* BWVerifyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWVerifyUtil.m; sourceTree = "<group>"; };
+		B410949D1E13B6FD00D59621 /* BWCodeSnippetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCodeSnippetsViewController.h; sourceTree = "<group>"; };
+		B410949E1E13B6FD00D59621 /* BWCodeSnippetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCodeSnippetsViewController.m; sourceTree = "<group>"; };
 		B452B85D1DEE86F900CA97FE /* BWiOSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWiOSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B452B8611DEE86F900CA97FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B452B8631DEE86F900CA97FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -113,8 +118,8 @@
 		B452B8851DEE86F900CA97FE /* BWiOSCommonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWiOSCommonUITests.m; sourceTree = "<group>"; };
 		B452B8871DEE86F900CA97FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B452B8A31DEE886D00CA97FE /* BWiOSCommon.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWiOSCommon.pch; sourceTree = "<group>"; };
-		B452B8A51DEE8AA600CA97FE /* BWCodeSnippetsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCodeSnippetsController.h; sourceTree = "<group>"; };
-		B452B8A61DEE8AA600CA97FE /* BWCodeSnippetsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCodeSnippetsController.m; sourceTree = "<group>"; };
+		B452B8A51DEE8AA600CA97FE /* BWCodeSnippetsTemplateCodeInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCodeSnippetsTemplateCodeInViewController.h; sourceTree = "<group>"; };
+		B452B8A61DEE8AA600CA97FE /* BWCodeSnippetsTemplateCodeInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCodeSnippetsTemplateCodeInViewController.m; sourceTree = "<group>"; };
 		B452B8A71DEE8AA600CA97FE /* BWCodeSnippetsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCodeSnippetsView.h; sourceTree = "<group>"; };
 		B452B8A81DEE8AA600CA97FE /* BWCodeSnippetsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCodeSnippetsView.m; sourceTree = "<group>"; };
 		B452B8A91DEE8AA600CA97FE /* BWObjective-CCodeSnippets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BWObjective-CCodeSnippets.h"; sourceTree = "<group>"; };
@@ -162,8 +167,8 @@
 		B452B91C1DEFCD5F00CA97FE /* NSDate+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BWExtension.m"; sourceTree = "<group>"; };
 		B46076B21DF0131F00C8472F /* README-CodeSnippets.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README-CodeSnippets.md"; sourceTree = "<group>"; };
 		B46077611DF025F900C8472F /* BWMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
-		B47A37CE1E03926800E130AA /* UITextView+BMExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BMExtension.h"; sourceTree = "<group>"; };
-		B47A37CF1E03926800E130AA /* UITextView+BMExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BMExtension.m"; sourceTree = "<group>"; };
+		B47A37CE1E03926800E130AA /* UITextView+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BWExtension.h"; sourceTree = "<group>"; };
+		B47A37CF1E03926800E130AA /* UITextView+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BWExtension.m"; sourceTree = "<group>"; };
 		B4D3DC5A1E0CC4F7005D96C5 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
 		B4D3DC5B1E0CC4F7005D96C5 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
 		B4D3DC5C1E0CC4F7005D96C5 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
@@ -284,6 +289,15 @@
 			path = BWAddressBookManager;
 			sourceTree = "<group>";
 		};
+		B41094161E10FC8D00D59621 /* BWVerifyUtil */ = {
+			isa = PBXGroup;
+			children = (
+				B41094171E10FC9600D59621 /* BWVerifyUtil.h */,
+				B41094181E10FC9600D59621 /* BWVerifyUtil.m */,
+			);
+			path = BWVerifyUtil;
+			sourceTree = "<group>";
+		};
 		B452B8541DEE86F900CA97FE = {
 			isa = PBXGroup;
 			children = (
@@ -389,8 +403,8 @@
 				B452B9061DEEC63300CA97FE /* UIImage+BWExtension.m */,
 				B452B91B1DEFCD5F00CA97FE /* NSDate+BWExtension.h */,
 				B452B91C1DEFCD5F00CA97FE /* NSDate+BWExtension.m */,
-				B47A37CE1E03926800E130AA /* UITextView+BMExtension.h */,
-				B47A37CF1E03926800E130AA /* UITextView+BMExtension.m */,
+				B47A37CE1E03926800E130AA /* UITextView+BWExtension.h */,
+				B47A37CF1E03926800E130AA /* UITextView+BWExtension.m */,
 				B4D3DC911E0CD809005D96C5 /* YYTextView+BWExtension.h */,
 				B4D3DC921E0CD809005D96C5 /* YYTextView+BWExtension.m */,
 			);
@@ -421,6 +435,7 @@
 				B4F2E9061DF11BFB0036A3DE /* BWUtility.h */,
 				B4F2E9071DF11BFB0036A3DE /* BWUtility.m */,
 				B41094061E10E86500D59621 /* BWAddressBookManager */,
+				B41094161E10FC8D00D59621 /* BWVerifyUtil */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -479,8 +494,10 @@
 		B452B8A41DEE8A6E00CA97FE /* CodeSnippets */ = {
 			isa = PBXGroup;
 			children = (
-				B452B8A51DEE8AA600CA97FE /* BWCodeSnippetsController.h */,
-				B452B8A61DEE8AA600CA97FE /* BWCodeSnippetsController.m */,
+				B410949D1E13B6FD00D59621 /* BWCodeSnippetsViewController.h */,
+				B410949E1E13B6FD00D59621 /* BWCodeSnippetsViewController.m */,
+				B452B8A51DEE8AA600CA97FE /* BWCodeSnippetsTemplateCodeInViewController.h */,
+				B452B8A61DEE8AA600CA97FE /* BWCodeSnippetsTemplateCodeInViewController.m */,
 				B452B8A71DEE8AA600CA97FE /* BWCodeSnippetsView.h */,
 				B452B8A81DEE8AA600CA97FE /* BWCodeSnippetsView.m */,
 				B452B8A91DEE8AA600CA97FE /* BWObjective-CCodeSnippets.h */,
@@ -996,8 +1013,9 @@
 				B452B8F01DEEBD3900CA97FE /* UIImageView+BWExtension.m in Sources */,
 				B41094091E10E86500D59621 /* BWAddressBookManager.m in Sources */,
 				B452B9141DEED06600CA97FE /* BWBaseViewController.m in Sources */,
+				B41094191E10FC9600D59621 /* BWVerifyUtil.m in Sources */,
 				B452B8F11DEEBD3900CA97FE /* UILabel+BWExtension.m in Sources */,
-				B47A37D01E03926800E130AA /* UITextView+BMExtension.m in Sources */,
+				B47A37D01E03926800E130AA /* UITextView+BWExtension.m in Sources */,
 				B452B8651DEE86F900CA97FE /* AppDelegate.m in Sources */,
 				B4F2E8FE1DF114960036A3DE /* BWAlertUtil.md in Sources */,
 				B4D3DC8C1E0CC4F7005D96C5 /* LICENSE.md in Sources */,

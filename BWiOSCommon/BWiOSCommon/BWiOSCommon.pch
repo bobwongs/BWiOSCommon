@@ -15,6 +15,7 @@
 #import <UIKit/UIKit.h>
 
 #import "BWMacroDefinition.h"
+#import "BWVerifyUtil.h"
 #import "BWCategories.h"
 #import "Masonry.h"
 

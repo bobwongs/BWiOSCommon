@@ -1,5 +1,5 @@
 //
-//  UITextView+BMExtension.h
+//  UITextView+BWExtension.h
 //  BWiOSCommon
 //
 //  Created by BobWong on 16/12/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UITextView (BMExtension)
+@interface UITextView (BWExtension)
 
 #pragma mark - Limit Input Text Length
 

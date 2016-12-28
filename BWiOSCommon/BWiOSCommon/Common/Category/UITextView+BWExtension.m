@@ -1,15 +1,15 @@
 //
-//  UITextView+BMExtension.m
+//  UITextView+BWExtension.m
 //  BWiOSCommon
 //
 //  Created by BobWong on 16/12/16.
 //  Copyright © 2016年 BobWongStudio. All rights reserved.
 //
 
-#import "UITextView+BMExtension.h"
+#import "UITextView+BWExtension.h"
 #import <objc/runtime.h>
 
-@implementation UITextView (BMExtension)
+@implementation UITextView (BWExtension)
 
 + (BOOL)bw_textView:(UITextView *)textView limitedLength:(NSUInteger)limitedLength shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
     NSLog(@"range is %lu, %lu", range.location, range.length);
