@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWPropertyBlockTypeDefinitionTemplate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassInterfaceMethods</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>@property (nonatomic, copy) &lt;#BlockType#&gt; &lt;#block#&gt;;  ///&lt; &lt;#Comments#&gt;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>349E8BF9-E300-442C-899D-9BE4FBE72362</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWPropertyBlockTypeDefinitionTemplate</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWPropertyBlockTypeDefinitionTemplate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

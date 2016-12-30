@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUIButtonTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UIButton *&lt;#button#&gt; = [UIButton buttonWithType:&lt;#UIButtonType#&gt;];
+[&lt;#button#&gt; setTitle:&lt;#NSString#&gt; forState:&lt;#UIControlState#&gt;];
+[&lt;#button#&gt; setTitleColor:&lt;#UIColor#&gt; forState:&lt;#UIControlState#&gt;];
+&lt;#button#&gt;.titleLabel.font = &lt;#UIFont#&gt;;
+[&lt;#button#&gt; setImage:&lt;#UIImage *#&gt; forState:&lt;#UIControlState#&gt;];
+[&lt;#button#&gt; setBackgroundImage:&lt;#UIImage *#&gt; forState:&lt;#UIControlState#&gt;];
+&lt;#button#&gt;.backgroundColor = &lt;#UIColor#&gt;;
+[&lt;#button#&gt; addTarget:&lt;#target#&gt; action:@selector(&lt;#buttonAct#&gt;) forControlEvents:&lt;#UIControlEvent#&gt;];
+[&lt;#superview#&gt; addSubview:&lt;#button#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E95EE723-3876-4C0B-9076-AF1B57CB8233</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUIButtonTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUIButtonTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

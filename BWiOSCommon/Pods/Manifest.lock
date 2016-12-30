@@ -1,20 +1,23 @@
 PODS:
-  - Masonry (1.0.1)
+  - Masonry (1.0.2)
   - MBProgressHUD (1.0.0)
-  - YYCategories (1.0.3):
-    - YYCategories/no-arc (= 1.0.3)
-  - YYCategories/no-arc (1.0.3)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - Masonry
   - MBProgressHUD (~> 1.0.0)
   - YYCategories
+  - YYText (= 1.0.7)
 
 SPEC CHECKSUMS:
-  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
-  YYCategories: 0fd4d9eb0994d8d0e355beb4081c8f7202a82b7b
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: a67ca2933e4518a9b6caa8cf0d26ff9df6d944c3
+PODFILE CHECKSUM: cbf2ae59f6dc8871ce76aa8ae8f67fc7da2d7ab9
 
 COCOAPODS: 1.1.1

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWViewClassTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*-----------------------------------
+ BWViewClassTemplateCode
+ -----------------------------------*/
+
+#pragma mark - View Life
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    if (self = [super initWithFrame:frame]) {
+        [self setUI];
+        [self setConstraints];
+    }
+    return self;
+}
+
+#pragma mark - Pirvate Method
+
+- (void)setUI
+{
+    &lt;#Code#&gt;
+}
+
+- (void)setConstraints
+{
+    &lt;#Code#&gt;
+}
+
+#pragma mark - Getter and Setter</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FCEDE65B-E8CA-45F5-A513-AB0E65418FAF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWViewClassTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWViewClassTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUIActionSheetDelegateTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    NSString *titleBtn = [actionSheet buttonTitleAtIndex:buttonIndex];
+    
+    if ([titleBtn isEqualToString:&lt;#(nonnull NSString *)#&gt;]) {
+        &lt;#statements#&gt;
+    }
+    else if ([titleBtn isEqualToString:&lt;#(nonnull NSString *)#&gt;]) {
+        &lt;#statements#&gt;
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>74B363D6-CE2F-46FD-8764-D7B33F6F91D1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUIActionSheetDelegateTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUIActionSheetDelegateTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
