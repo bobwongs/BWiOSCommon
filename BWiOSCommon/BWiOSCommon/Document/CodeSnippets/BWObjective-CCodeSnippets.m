@@ -8,6 +8,15 @@
 
 #import "BWObjective-CCodeSnippets.h"
 
+/*---------------------
+ BWInterfaceExtensionTemplate
+ ---------------------*/
+@interface <#ClassName#> () <#<>#>
+
+<#Code#>
+
+@end
+
 @implementation BWObjective_CCodeSnippets
 
 - (void)utility_code_snippets {

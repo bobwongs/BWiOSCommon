@@ -10,19 +10,11 @@
 
 @implementation BWCodeSnippetsView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
-
 /*-----------------------------------
-    BWUIViewClassTemplateCode
+    BWViewClassTemplateCode
 -----------------------------------*/
 
-#pragma mark - View Cylce
+#pragma mark - View Life
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
@@ -37,16 +29,14 @@
 
 - (void)setUI
 {
-    
+    <#Code#>
 }
 
 - (void)setConstraints
 {
-    
+    <#Code#>
 }
 
 #pragma mark - Getter and Setter
-
-/*----------------------------------*/
 
 @end

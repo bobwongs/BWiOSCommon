@@ -283,7 +283,7 @@
 - (void)ui_constraints {
     
     /*---------------------
-        Masonry Template Code
+     BWMasonryEdgeTemplateCode
      ---------------------*/
     UIView *view = [[UIView alloc] init];
     [<#view#> mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -293,6 +293,9 @@
         make.bottom.mas_equalTo(<#CGFloat#>);
     }];
     
+    /*---------------------
+     BWMasonryOriginalAndSizeTemplateCode
+     ---------------------*/
     [view mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(<#CGFloat#>);
         make.width.mas_equalTo(<#CGFloat#>);
@@ -303,15 +306,7 @@
 }
 
 /*---------------------
-    BWUIButtonActionTemplateCode
- ---------------------*/
-- (void)button<#Action Name#>Act:(UIButton *)sender
-{
-    
-}
-
-/*---------------------
-    UIAlertViewDelegate
+    BWUIAlertViewDelegateTemplateCode
  ---------------------*/
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     NSString *titleBtn = [alertView buttonTitleAtIndex:buttonIndex];
@@ -329,7 +324,7 @@
 }
 
 /*---------------------
-    UIActionSheetDelegate
+    BWUIActionSheetDelegateTemplateCode
  ---------------------*/
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
     NSString *titleBtn = [actionSheet buttonTitleAtIndex:buttonIndex];

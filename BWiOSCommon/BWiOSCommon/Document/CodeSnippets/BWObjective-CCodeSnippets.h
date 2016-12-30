@@ -14,5 +14,6 @@
 @property (nonatomic, strong) <#DataType#> *<#member#>;  ///< <#Comments#>
 @property (nonatomic, assign) <#DataType#> <#member#>;  ///< <#Comments#>
 @property (nonatomic, copy) <#ReturnType#>(^<#BlockName#>)(<#Parameters#>);  ///< <#Comments#>
+@property (nonatomic, copy) <#BlockType#> <#block#>;  ///< <#Comments#>
 
 @end

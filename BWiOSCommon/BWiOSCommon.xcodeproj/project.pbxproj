@@ -104,6 +104,10 @@
 		B41094181E10FC9600D59621 /* BWVerifyUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWVerifyUtil.m; sourceTree = "<group>"; };
 		B410949D1E13B6FD00D59621 /* BWCodeSnippetsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCodeSnippetsViewController.h; sourceTree = "<group>"; };
 		B410949E1E13B6FD00D59621 /* BWCodeSnippetsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCodeSnippetsViewController.m; sourceTree = "<group>"; };
+		B41094A61E165B5A00D59621 /* BWCodeSnippetsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCodeSnippetsTableViewCell.h; sourceTree = "<group>"; };
+		B41094A71E165B5A00D59621 /* BWCodeSnippetsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCodeSnippetsTableViewCell.m; sourceTree = "<group>"; };
+		B41094AC1E165CDD00D59621 /* BWCodeSnippetsFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCodeSnippetsFunctionViewController.h; sourceTree = "<group>"; };
+		B41094AD1E165CDD00D59621 /* BWCodeSnippetsFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCodeSnippetsFunctionViewController.m; sourceTree = "<group>"; };
 		B452B85D1DEE86F900CA97FE /* BWiOSCommon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BWiOSCommon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B452B8611DEE86F900CA97FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B452B8631DEE86F900CA97FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -494,17 +498,21 @@
 		B452B8A41DEE8A6E00CA97FE /* CodeSnippets */ = {
 			isa = PBXGroup;
 			children = (
+				B46076B21DF0131F00C8472F /* README-CodeSnippets.md */,
 				B410949D1E13B6FD00D59621 /* BWCodeSnippetsViewController.h */,
 				B410949E1E13B6FD00D59621 /* BWCodeSnippetsViewController.m */,
 				B452B8A51DEE8AA600CA97FE /* BWCodeSnippetsTemplateCodeInViewController.h */,
 				B452B8A61DEE8AA600CA97FE /* BWCodeSnippetsTemplateCodeInViewController.m */,
+				B41094AC1E165CDD00D59621 /* BWCodeSnippetsFunctionViewController.h */,
+				B41094AD1E165CDD00D59621 /* BWCodeSnippetsFunctionViewController.m */,
 				B452B8A71DEE8AA600CA97FE /* BWCodeSnippetsView.h */,
 				B452B8A81DEE8AA600CA97FE /* BWCodeSnippetsView.m */,
 				B452B8A91DEE8AA600CA97FE /* BWObjective-CCodeSnippets.h */,
 				B452B8AA1DEE8AA600CA97FE /* BWObjective-CCodeSnippets.m */,
 				B452B8AB1DEE8AA600CA97FE /* BWUICodeSnippets.h */,
 				B452B8AC1DEE8AA600CA97FE /* BWUICodeSnippets.m */,
-				B46076B21DF0131F00C8472F /* README-CodeSnippets.md */,
+				B41094A61E165B5A00D59621 /* BWCodeSnippetsTableViewCell.h */,
+				B41094A71E165B5A00D59621 /* BWCodeSnippetsTableViewCell.m */,
 			);
 			path = CodeSnippets;
 			sourceTree = "<group>";

@@ -15,12 +15,13 @@
 @implementation BWCodeSnippetsViewController
 
 /*--------------------------------------
- BWUIViewControllerTemplateCode
+ BWViewControllerTemplateCode
  --------------------------------------*/
 
 #pragma mark - View Cycle
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     
     self.title = <#NSString *#>;
@@ -45,22 +46,22 @@
 
 - (void)setData
 {
-    
+    <#Code#>
 }
 
 - (void)setUI
 {
-    
+    <#Code#>
 }
 
 - (void)setConstraints
 {
-    
+    <#Code#>
 }
 
 - (void)loadData
 {
-    
+    <#Code#>
 }
 
 #pragma mark - Getter and Setter

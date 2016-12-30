@@ -17,10 +17,10 @@
 
 @implementation BWCodeSnippetsController
 
-
 #pragma mark - View Cycle
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     
     self.title = <#NSString *#>;
@@ -36,9 +36,20 @@
 
 #pragma mark - Action
 
-- (void)buttonAction:(id)sender
+/*----------------------------------------------------------
+ BWButtonActionTemplate
+ ---------------------------------------------------------*/
+- (void)btn<#ActionName#>Act:(UIButton *)sender
 {
-    
+    <#Code#>
+}
+
+/*----------------------------------------------------------
+ BWGestureActionTemplate
+ ---------------------------------------------------------*/
+- (void)gesture<#GestureName#>:(<#GestureRecognizer#> *)gestureRecognizer
+{
+    <#Code#>
 }
 
 #pragma mark - Network
@@ -47,31 +58,76 @@
 
 #pragma mark - System Delegate
 
+/*----------------------------------------------------------
+ BWTableViewDataSourceAndDelegateTemplateCode
+ ---------------------------------------------------------*/
+
+#pragma mark - UITableView DataSource and Delegate
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return <#NSInteger#>;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return <#_dataSource#> ? <#_dataSource#>.count : 0;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellId = <#@"Cell"#>;
+    <#TableViewCell#> *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
+    if (!cell) {
+        cell = [[<#TableViewCell#> alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
+    }
+    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    //    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return <#CGFloat#>;
+}
+
 #pragma mark - Private Method
 
+/*----------------------------------------------------------
+ BWSetDataTemplateCode
+ ---------------------------------------------------------*/
 - (void)setData
 {
-    
+    <#Code#>
 }
 
 /*----------------------------------------------------------
  BWSetNavigationBarTemplate
  ---------------------------------------------------------*/
-- (void)setNavigationBar {
+- (void)setNavigationBar
+{
     <#Set Custom View#>
     
     UIBarButtonItem *<#item#> = [[UIBarButtonItem alloc] initWithCustomView:<#(nonnull UIView *)#>];
     self.navigationItem.<#leftOrRightBarButtonItem#> = <#item#>;
 }
 
+/*----------------------------------------------------------
+ BWSetUITemplateCode
+ ---------------------------------------------------------*/
 - (void)setUI
 {
-    
+    <#Code#>
 }
 
+/*----------------------------------------------------------
+ BWSetConstraintsTemplateCode
+ ---------------------------------------------------------*/
 - (void)setConstraints
 {
-    
+    <#Code#>
 }
 
 /*----------------------------------------------------------
@@ -89,47 +145,19 @@
     <#Networking#>
 }
 
-#pragma mark - Getter and Setter
-
-
-/*-------------------------------------------------------------------*/
-
-
 /*----------------------------------------------------------
-    BWUITableViewDataSourceAndDelegateTemplateCode
+ BWSetUIDataWithModelTemplateCode
  ---------------------------------------------------------*/
-
-#pragma mark - UITableView DataSource and Delegate
-
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+- (void)setUIDataWithModel:(<#Model#> *)model
 {
-    return <#NSInteger#>;
+    <#Code#>
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+- (void)reloadData
 {
-    return <#_dataSource#> ? <#_dataSource#>.count : 0;
+    <#Code#>
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    static NSString *<#cellId#> = <#@"Cell"#>;
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#cellId#>];
-    if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:<#UITableViewCellStyle#> reuseIdentifier:<#cellId#>];
-    }
-    
-    return cell;
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    [tableView deselectRowAtIndexPath:indexPath animated:NO];
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return <#CGFloat#>;
-}
-
-/*-------------------------------------------------------------------*/
+#pragma mark - Getter and Setter
 
 @end
