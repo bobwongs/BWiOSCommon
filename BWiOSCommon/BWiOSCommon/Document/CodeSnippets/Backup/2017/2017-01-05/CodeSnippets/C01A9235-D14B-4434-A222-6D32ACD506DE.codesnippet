@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BWUILabelTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>UILabel *&lt;#label#&gt; = [[UILabel alloc] init];
+&lt;#label#&gt;.text = &lt;#NSString#&gt;;
+&lt;#label#&gt;.numberOfLines = &lt;#NSInteger#&gt;;
+&lt;#label#&gt;.textAlignment = &lt;#NSTextAlignment#&gt;;
+&lt;#label#&gt;.font = &lt;#UIFont#&gt;;
+&lt;#label#&gt;.textColor = &lt;#UIColor#&gt;;
+&lt;#label#&gt;.backgroundColor = &lt;#UIColor#&gt;;
+[&lt;#superview#&gt; addSubview:&lt;#label#&gt;];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C01A9235-D14B-4434-A222-6D32ACD506DE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BWUILabelTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BWUILabelTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

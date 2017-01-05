@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>BMAPIManagerGetterTemplateCode</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (&lt;#BMAPIManager#&gt; *)apiMng&lt;#Name#&gt; {
+    if (!_apiMng&lt;#Name#&gt;) {
+        _apiMng&lt;#Name#&gt; = [[&lt;#BMAPIManager#&gt; alloc] init];
+        _apiMng&lt;#Name#&gt;.apiCallBackDelegate = self;
+    }
+    return _apiMng&lt;#Name#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C46D25B0-F6D2-41AA-840B-8E63D379E50B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>BMAPIManagerGetterTemplateCode</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>BMAPIManagerGetterTemplateCode</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
