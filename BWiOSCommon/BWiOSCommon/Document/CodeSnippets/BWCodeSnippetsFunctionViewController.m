@@ -8,30 +8,88 @@
 
 #import "BWCodeSnippetsFunctionViewController.h"
 
-@interface BWCodeSnippetsFunctionViewController ()
+/*
+ Protocol
+ 
+ BWProtocolImagePickerTemplate
+ */
+@interface BWCodeSnippetsFunctionViewController () <UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
 @end
 
 @implementation BWCodeSnippetsFunctionViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+- (void)navigationController {
+    
+    // ---------- BWUINavigationControllerPushVCTemplateCode ----------
+    <#UIViewController#> *vc<#ViewControllerName#> = [<#UIViewController#> new];
+    [self.navigationController pushViewController:vc<#ViewControllerName#> animated:YES];
+    
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+// ----------------------选择一张照片----------------------
+- (void)selectOnePhoto {
+    
+    UIImagePickerController *vcPicker = [[UIImagePickerController alloc] init];
+    vcPicker.delegate = self;
+    if (buttonIndex == 0) {
+        // 相机
+        if (![UIDevice bm_haveCamera]) {
+            [SVProgressHUD showInfoWithStatus:@"设备没有相机，无法启动拍照功能" maskType:SVProgressHUDMaskTypeBlack];
+            return;
+        }
+        if (![UIApplication bm_haveCameraPower]) {
+            [SVProgressHUD showInfoWithStatus:@"请在设备的\"设置-隐私-相机\"中允许访问相机" maskType:SVProgressHUDMaskTypeBlack];
+            return;
+        }
+        
+        vcPicker.sourceType = UIImagePickerControllerSourceTypeCamera;
+        [self presentViewController:vcPicker animated:YES completion:nil];
+    }
+    else if (buttonIndex == 1){
+        // 相册
+        if (![UIApplication bm_haveAlbumPower]) {
+            [SVProgressHUD showInfoWithStatus:@"请在设备的\"设置-隐私-照片\"中允许访问照片" maskType:SVProgressHUDMaskTypeBlack];
+            return;
+        }
+        
+        vcPicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+        [self presentViewController:vcPicker animated:YES completion:nil];
+    }
+    else if (buttonIndex == 2 && self.ivPhoto.image && _pathUploadedImg) {
+        // 预览
+        [BMImageViewBrowseView showImageViewBrowseViewWithImage:self.ivPhoto.image];
+    }
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info
+{
+    UIImage *imageSelected = info[UIImagePickerControllerOriginalImage];
+    _ivPhoto.image = imageSelected;  // 图片
+    
+    [picker dismissViewControllerAnimated:YES completion:nil];
 }
-*/
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+{
+    [picker dismissViewControllerAnimated:YES completion:nil];
+}
+
+// ----------------------选择一张照片----------------------
+
+// 定位
+- (void)location {
+    
+    
+    
+}
+
+// 通讯录
+- (void)addressBook {
+    
+    
+    
+}
 
 @end

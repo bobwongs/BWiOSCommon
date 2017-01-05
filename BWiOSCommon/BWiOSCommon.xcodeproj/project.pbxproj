@@ -41,6 +41,7 @@
 		B452B9171DEED09B00CA97FE /* BWHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9161DEED09B00CA97FE /* BWHomeVC.m */; };
 		B452B91A1DEED0A800CA97FE /* BWResearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B9191DEED0A800CA97FE /* BWResearchVC.m */; };
 		B452B91D1DEFCD5F00CA97FE /* NSDate+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B452B91C1DEFCD5F00CA97FE /* NSDate+BWExtension.m */; };
+		B47751E21E1CB0FD00859D25 /* BWCodeSnippetsComment.m in Sources */ = {isa = PBXBuildFile; fileRef = B47751E11E1CB0FD00859D25 /* BWCodeSnippetsComment.m */; };
 		B47A37D01E03926800E130AA /* UITextView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B47A37CF1E03926800E130AA /* UITextView+BWExtension.m */; };
 		B4D3DC7E1E0CC4F7005D96C5 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D3DC5B1E0CC4F7005D96C5 /* IQNSArray+Sort.m */; };
 		B4D3DC7F1E0CC4F7005D96C5 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D3DC5D1E0CC4F7005D96C5 /* IQUIScrollView+Additions.m */; };
@@ -171,6 +172,8 @@
 		B452B91C1DEFCD5F00CA97FE /* NSDate+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+BWExtension.m"; sourceTree = "<group>"; };
 		B46076B21DF0131F00C8472F /* README-CodeSnippets.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "README-CodeSnippets.md"; sourceTree = "<group>"; };
 		B46077611DF025F900C8472F /* BWMacroDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMacroDefinition.h; sourceTree = "<group>"; };
+		B47751E01E1CB0FD00859D25 /* BWCodeSnippetsComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCodeSnippetsComment.h; sourceTree = "<group>"; };
+		B47751E11E1CB0FD00859D25 /* BWCodeSnippetsComment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCodeSnippetsComment.m; sourceTree = "<group>"; };
 		B47A37CE1E03926800E130AA /* UITextView+BWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+BWExtension.h"; sourceTree = "<group>"; };
 		B47A37CF1E03926800E130AA /* UITextView+BWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+BWExtension.m"; sourceTree = "<group>"; };
 		B4D3DC5A1E0CC4F7005D96C5 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
@@ -513,6 +516,8 @@
 				B452B8AC1DEE8AA600CA97FE /* BWUICodeSnippets.m */,
 				B41094A61E165B5A00D59621 /* BWCodeSnippetsTableViewCell.h */,
 				B41094A71E165B5A00D59621 /* BWCodeSnippetsTableViewCell.m */,
+				B47751E01E1CB0FD00859D25 /* BWCodeSnippetsComment.h */,
+				B47751E11E1CB0FD00859D25 /* BWCodeSnippetsComment.m */,
 			);
 			path = CodeSnippets;
 			sourceTree = "<group>";
@@ -1003,6 +1008,7 @@
 				B452B90E1DEECF3900CA97FE /* BWImageAndTitleButton.m in Sources */,
 				B4D3DC881E0CC4F7005D96C5 /* IQTitleBarButtonItem.m in Sources */,
 				B4F2E8FD1DF114960036A3DE /* BWHudUtil.m in Sources */,
+				B47751E21E1CB0FD00859D25 /* BWCodeSnippetsComment.m in Sources */,
 				B4D3DC851E0CC4F7005D96C5 /* IQKeyboardReturnKeyHandler.m in Sources */,
 				B4D3DC811E0CC4F7005D96C5 /* IQUIView+Hierarchy.m in Sources */,
 				B4D3DC821E0CC4F7005D96C5 /* IQUIViewController+Additions.m in Sources */,

@@ -8,6 +8,9 @@
 
 #import "BWUICodeSnippets.h"
 
+/*
+ UI Protocol
+ */
 @interface BWUICodeSnippets () <UIAlertViewDelegate, UIActionSheetDelegate>
 
 @end

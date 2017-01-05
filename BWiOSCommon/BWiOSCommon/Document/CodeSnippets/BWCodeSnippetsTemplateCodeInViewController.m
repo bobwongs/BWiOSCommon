@@ -10,6 +10,8 @@
 
 /*
  Protocol Code Snippets
+ 
+ BWProtocolTableViewDataSourceAndDelegate
  */
 @interface BWCodeSnippetsController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -86,7 +88,8 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    //    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+//    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+    <#Code#>
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -131,7 +134,7 @@
 }
 
 /*----------------------------------------------------------
- BWLoadData
+ BWLoadDataTemplate
  ---------------------------------------------------------*/
 - (void)loadData
 {
@@ -153,6 +156,9 @@
     <#Code#>
 }
 
+/*----------------------------------------------------------
+ BWReloadDataTemplateCode
+ ---------------------------------------------------------*/
 - (void)reloadData
 {
     <#Code#>
