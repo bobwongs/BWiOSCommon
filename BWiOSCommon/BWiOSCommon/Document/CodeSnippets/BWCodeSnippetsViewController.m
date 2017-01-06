@@ -8,7 +8,9 @@
 
 #import "BWCodeSnippetsViewController.h"
 
-@interface BWCodeSnippetsViewController ()
+@interface BWCodeSnippetsViewController () <#<>#>
+
+<#Code#>
 
 @end
 
