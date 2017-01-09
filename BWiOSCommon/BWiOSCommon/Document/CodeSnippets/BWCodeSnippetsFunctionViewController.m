@@ -34,11 +34,11 @@
     vcPicker.delegate = self;
     if (buttonIndex == 0) {
         // 相机
-        if (![UIDevice bm_haveCamera]) {
+        if (![UIDevice bw_haveCamera]) {
             [SVProgressHUD showInfoWithStatus:@"设备没有相机，无法启动拍照功能" maskType:SVProgressHUDMaskTypeBlack];
             return;
         }
-        if (![UIApplication bm_haveCameraPower]) {
+        if (![UIApplication bw_haveCameraPower]) {
             [SVProgressHUD showInfoWithStatus:@"请在设备的\"设置-隐私-相机\"中允许访问相机" maskType:SVProgressHUDMaskTypeBlack];
             return;
         }
@@ -48,7 +48,7 @@
     }
     else if (buttonIndex == 1){
         // 相册
-        if (![UIApplication bm_haveAlbumPower]) {
+        if (![UIApplication bw_haveAlbumPower]) {
             [SVProgressHUD showInfoWithStatus:@"请在设备的\"设置-隐私-照片\"中允许访问照片" maskType:SVProgressHUDMaskTypeBlack];
             return;
         }

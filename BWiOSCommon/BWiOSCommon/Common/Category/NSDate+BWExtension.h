@@ -10,6 +10,6 @@
 
 @interface NSDate (BWExtension)
 
-+ (NSString *)bm_getDateStringFromTimeStamp:(long long)timeStamp withDateFormat:(NSString *)dateFormat;
++ (NSString *)bw_getDateStringFromTimeStamp:(long long)timeStamp withDateFormat:(NSString *)dateFormat;
 
 @end

@@ -297,7 +297,7 @@
 //    [self.view addSubview:label];
 
     
-//    UIButton *button = [UIButton bm_buttonTitleUnderLineWithTitle:@"查看" titleColor:[UIColor blueColor] titleFont:[UIFont systemFontOfSize:17.0]];
+//    UIButton *button = [UIButton bw_buttonTitleUnderLineWithTitle:@"查看" titleColor:[UIColor blueColor] titleFont:[UIFont systemFontOfSize:17.0]];
 //    [button addTarget:self action:@selector(buttonAct:) forControlEvents:UIControlEventTouchUpInside];
 //    [self.view addSubview:button];
 //    
@@ -327,7 +327,7 @@
 //    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 100, 200, 50)];
 //    label.text = text;
 //    label.numberOfLines = 1;
-//    [label bm_setAttributeLabelWithText:@"你有 0.00 块钱" formatText:textChange font:[UIFont systemFontOfSize:25.0] textColor:[UIColor blueColor]];
+//    [label bw_setAttributeLabelWithText:@"你有 0.00 块钱" formatText:textChange font:[UIFont systemFontOfSize:25.0] textColor:[UIColor blueColor]];
 //    [self.view addSubview:label];
 //
 //    NSRange range = [text rangeOfString:textChange];

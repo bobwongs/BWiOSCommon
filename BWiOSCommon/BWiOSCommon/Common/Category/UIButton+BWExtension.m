@@ -38,12 +38,12 @@
     return button;
 }
 
-+ (UIButton *)bm_buttonLeftTitleAndRightArrowWithTitle:(NSString *)title
++ (UIButton *)bw_buttonLeftTitleAndRightArrowWithTitle:(NSString *)title
 {
-    return [UIButton bm_buttonWithLeftTitle:title rightImage:[UIImage imageNamed:@"icon_right_arrow"]];
+    return [UIButton bw_buttonWithLeftTitle:title rightImage:[UIImage imageNamed:@"icon_right_arrow"]];
 }
 
-+ (UIButton *)bm_buttonWithLeftTitle:(NSString *)title
++ (UIButton *)bw_buttonWithLeftTitle:(NSString *)title
                           rightImage:(UIImage *)image
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -77,7 +77,7 @@
     return button;
 }
 
-+ (UIButton *)bm_buttonTitleUnderLineWithTitle:(NSString *)titleButton
++ (UIButton *)bw_buttonTitleUnderLineWithTitle:(NSString *)titleButton
                                     titleColor:(UIColor *)colorTitle
                                      titleFont:(UIFont *)fontTitle
 {
@@ -106,7 +106,7 @@ static const char keyLabelTitle = '\0';
 }
 
 
-+ (UIButton *)bm_buttonWithTitle:(NSString *)titleButton
++ (UIButton *)bw_buttonWithTitle:(NSString *)titleButton
              titleAndBorderColor:(UIColor *)colorTitleAndBorder
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -121,7 +121,7 @@ static const char keyLabelTitle = '\0';
     return button;
 }
 
-+ (UIButton *)bm_buttonWithTitle:(NSString *)titleButton
++ (UIButton *)bw_buttonWithTitle:(NSString *)titleButton
                       titleColor:(UIColor *)colorTitle
                        titleFont:(UIFont *)fontTitle
 {
@@ -133,18 +133,18 @@ static const char keyLabelTitle = '\0';
     return button;
 }
 
-- (UIButton *)bm_initWithContactNumber:(NSString *)contactNumber
+- (UIButton *)bw_initWithContactNumber:(NSString *)contactNumber
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
     [button addTarget:self action:@selector(buttonActionDialNumber:) forControlEvents:UIControlEventTouchUpInside];
     
-    [button bm_setButtonTitleWithContactNumber:contactNumber];
+    [button bw_setButtonTitleWithContactNumber:contactNumber];
     
     return button;
 }
 
-- (void)bm_setButtonTitleWithContactNumber:(NSString *)contactNumber
+- (void)bw_setButtonTitleWithContactNumber:(NSString *)contactNumber
 {
     if (!contactNumber || [contactNumber isEqualToString:self.titleLabel.text]) {
         return ;
@@ -160,7 +160,7 @@ static const char keyLabelTitle = '\0';
     [self setAttributedTitle:attributedString forState:UIControlStateNormal];
 }
 
-- (void)bm_setButtonTitleUnderLineWithTitle:(NSString *)titleButton
+- (void)bw_setButtonTitleUnderLineWithTitle:(NSString *)titleButton
                                  titleColor:(UIColor *)colorTitle
                                   titleFont:(UIFont *)fontTitle
 {
@@ -193,7 +193,7 @@ static const char keyLabelTitle = '\0';
 //    }
 }
 
-- (void)bm_setButtonWithInputedTitle:(NSString *)titleInputed
+- (void)bw_setButtonWithInputedTitle:(NSString *)titleInputed
                         defaultTitle:(NSString *)titleDefault
 {
     NSString *titleButton = titleInputed ? titleInputed : titleDefault;
@@ -203,7 +203,7 @@ static const char keyLabelTitle = '\0';
     [self setTitleColor:colorTitle forState:UIControlStateNormal];
 }
 
-+ (UIButton *)bm_buttonWithTitle:(NSString *)title
++ (UIButton *)bw_buttonWithTitle:(NSString *)title
                        titleFont:(UIFont *)fontTitle
                       titleColor:(UIColor *)colorTitle
                      normalImage:(UIImage *)imageNormal

@@ -29,36 +29,36 @@
 /**
  * 创建标题在左边，箭头在右边的Button
  */
-+ (UIButton *)bm_buttonLeftTitleAndRightArrowWithTitle:(NSString *)title;
++ (UIButton *)bw_buttonLeftTitleAndRightArrowWithTitle:(NSString *)title;
 
 /**
  * 创建Button，左边Title，右边Image
  */
-+ (UIButton *)bm_buttonWithLeftTitle:(NSString *)title
++ (UIButton *)bw_buttonWithLeftTitle:(NSString *)title
                           rightImage:(UIImage *)image;
 @property (nonatomic, strong) UILabel *labelTitle;  //!< 按钮标题Label
 
-+ (UIButton *)bm_buttonWithTitle:(NSString *)titleButton
++ (UIButton *)bw_buttonWithTitle:(NSString *)titleButton
              titleAndBorderColor:(UIColor *)colorTitleAndBorder;  //!< 创建带有描边的Button，描边颜色和Title的颜色一样
-+ (UIButton *)bm_buttonWithTitle:(NSString *)titleButton
++ (UIButton *)bw_buttonWithTitle:(NSString *)titleButton
                       titleColor:(UIColor *)colorTitle
                        titleFont:(UIFont *)fontTitle;  //!< 创建Button，设置Title的文本、颜色、字体
-+ (UIButton *)bm_buttonTitleUnderLineWithTitle:(NSString *)titleButton
++ (UIButton *)bw_buttonTitleUnderLineWithTitle:(NSString *)titleButton
                                     titleColor:(UIColor *)colorTitle
                                      titleFont:(UIFont *)fontTitle;
 
-- (UIButton *)bm_initWithContactNumber:(NSString *)contactNumber;  //!< 创建拨打电话按钮
-- (void)bm_setButtonTitleWithContactNumber:(NSString *)contactNumber;  //!< 修改拨打电话按钮文本
-- (void)bm_setButtonTitleUnderLineWithTitle:(NSString *)titleButton
+- (UIButton *)bw_initWithContactNumber:(NSString *)contactNumber;  //!< 创建拨打电话按钮
+- (void)bw_setButtonTitleWithContactNumber:(NSString *)contactNumber;  //!< 修改拨打电话按钮文本
+- (void)bw_setButtonTitleUnderLineWithTitle:(NSString *)titleButton
                                  titleColor:(UIColor *)colorTitle
                                   titleFont:(UIFont *)fontTitle;  //!< 给按钮文本加上下划线
-- (void)bm_setButtonWithInputedTitle:(NSString *)titleInputed
+- (void)bw_setButtonWithInputedTitle:(NSString *)titleInputed
                         defaultTitle:(NSString *)titleDefault;  //!< 给按钮设置文本，titleInputed不为空则显示titleInputed，为空则显示titleDefault
 
 /**
  * 创建Button，Title + Image
  */
-+ (UIButton *)bm_buttonWithTitle:(NSString *)title
++ (UIButton *)bw_buttonWithTitle:(NSString *)title
                        titleFont:(UIFont *)fontTitle
                       titleColor:(UIColor *)colorTitle
                      normalImage:(UIImage *)imageNormal

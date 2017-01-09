@@ -51,7 +51,7 @@
     return view;
 }
 
-- (UIView *)bm_addLineInBottom {
+- (UIView *)bw_addLineInBottom {
     UIView *viewLine = [UIView lineViewDefaultColor];
     [self addSubview:viewLine];
     
@@ -67,7 +67,7 @@
     return viewLine;
 }
 
-- (UIView *)bm_addLineInBottomWith10LeftOffset {
+- (UIView *)bw_addLineInBottomWith10LeftOffset {
     UIView *viewLine = [UIView lineViewDefaultColor];
     [self addSubview:viewLine];
     

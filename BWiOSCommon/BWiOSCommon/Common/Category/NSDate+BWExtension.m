@@ -10,7 +10,7 @@
 
 @implementation NSDate (BWExtension)
 
-+ (NSString *)bm_getDateStringFromTimeStamp:(long long)timeStamp withDateFormat:(NSString *)dateFormat {
++ (NSString *)bw_getDateStringFromTimeStamp:(long long)timeStamp withDateFormat:(NSString *)dateFormat {
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     [formatter setDateFormat:dateFormat];
     NSDate *date = [NSDate dateWithTimeIntervalSince1970:timeStamp / 1000];
