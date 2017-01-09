@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		089E39D9F8A99D0B2129B732 /* libPods-BWiOSCommonUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F54677D25AC6F8ECF0297D94 /* libPods-BWiOSCommonUITests.a */; };
 		69FE2A5CB62908D4FCB2FFBD /* libPods-BWiOSCommonTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DEF60A1165236B5E9AE8B37 /* libPods-BWiOSCommonTests.a */; };
-		B41094091E10E86500D59621 /* BWAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B41094081E10E86500D59621 /* BWAddressBookManager.m */; };
 		B410940C1E10E87800D59621 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B410940A1E10E87800D59621 /* AddressBook.framework */; };
 		B410940D1E10E87800D59621 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B410940B1E10E87800D59621 /* AddressBookUI.framework */; };
 		B41094101E10E88100D59621 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B410940E1E10E88100D59621 /* Contacts.framework */; };
@@ -43,6 +42,7 @@
 		B47A37D01E03926800E130AA /* UITextView+BWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B47A37CF1E03926800E130AA /* UITextView+BWExtension.m */; };
 		B48B5C491E2344410017AA77 /* BWCustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B48B5C481E2344410017AA77 /* BWCustomPickerView.m */; };
 		B48B5C4D1E2344590017AA77 /* BWImageAndTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B48B5C4C1E2344590017AA77 /* BWImageAndTitleButton.m */; };
+		B4C540071E23722500E216B1 /* BMAddressBookManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C540061E23722500E216B1 /* BMAddressBookManager.m */; };
 		B4D3DC7E1E0CC4F7005D96C5 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D3DC5B1E0CC4F7005D96C5 /* IQNSArray+Sort.m */; };
 		B4D3DC7F1E0CC4F7005D96C5 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D3DC5D1E0CC4F7005D96C5 /* IQUIScrollView+Additions.m */; };
 		B4D3DC801E0CC4F7005D96C5 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D3DC5F1E0CC4F7005D96C5 /* IQUITextFieldView+Additions.m */; };
@@ -95,8 +95,6 @@
 		487153065B701AADAA193281 /* Pods-BWiOSCommonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonUITests/Pods-BWiOSCommonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DEF60A1165236B5E9AE8B37 /* libPods-BWiOSCommonTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BWiOSCommonTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FC03C7002CC5E586DD5D08 /* Pods-BWiOSCommonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BWiOSCommonTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BWiOSCommonTests/Pods-BWiOSCommonTests.release.xcconfig"; sourceTree = "<group>"; };
-		B41094071E10E86500D59621 /* BWAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWAddressBookManager.h; sourceTree = "<group>"; };
-		B41094081E10E86500D59621 /* BWAddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWAddressBookManager.m; sourceTree = "<group>"; };
 		B410940A1E10E87800D59621 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		B410940B1E10E87800D59621 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		B410940E1E10E88100D59621 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
@@ -178,6 +176,8 @@
 		B48B5C481E2344410017AA77 /* BWCustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCustomPickerView.m; sourceTree = "<group>"; };
 		B48B5C4B1E2344590017AA77 /* BWImageAndTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWImageAndTitleButton.h; sourceTree = "<group>"; };
 		B48B5C4C1E2344590017AA77 /* BWImageAndTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWImageAndTitleButton.m; sourceTree = "<group>"; };
+		B4C540051E23722500E216B1 /* BMAddressBookManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAddressBookManager.h; sourceTree = "<group>"; };
+		B4C540061E23722500E216B1 /* BMAddressBookManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAddressBookManager.m; sourceTree = "<group>"; };
 		B4D3DC5A1E0CC4F7005D96C5 /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
 		B4D3DC5B1E0CC4F7005D96C5 /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
 		B4D3DC5C1E0CC4F7005D96C5 /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
@@ -287,15 +287,6 @@
 				3C17191C9854F3C31DC72397 /* Pods-BWiOSCommonUITests.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		B41094061E10E86500D59621 /* BWAddressBookManager */ = {
-			isa = PBXGroup;
-			children = (
-				B41094071E10E86500D59621 /* BWAddressBookManager.h */,
-				B41094081E10E86500D59621 /* BWAddressBookManager.m */,
-			);
-			path = BWAddressBookManager;
 			sourceTree = "<group>";
 		};
 		B41094161E10FC8D00D59621 /* BWVerifyUtil */ = {
@@ -443,7 +434,7 @@
 				B4F2E8FC1DF114960036A3DE /* BWUICommon.md */,
 				B4F2E9061DF11BFB0036A3DE /* BWUtility.h */,
 				B4F2E9071DF11BFB0036A3DE /* BWUtility.m */,
-				B41094061E10E86500D59621 /* BWAddressBookManager */,
+				B4C540041E23722500E216B1 /* BMAddressBookManager */,
 				B41094161E10FC8D00D59621 /* BWVerifyUtil */,
 			);
 			path = Utility;
@@ -638,6 +629,15 @@
 				B48B5C4C1E2344590017AA77 /* BWImageAndTitleButton.m */,
 			);
 			path = BWImageAndTitleButton;
+			sourceTree = "<group>";
+		};
+		B4C540041E23722500E216B1 /* BMAddressBookManager */ = {
+			isa = PBXGroup;
+			children = (
+				B4C540051E23722500E216B1 /* BMAddressBookManager.h */,
+				B4C540061E23722500E216B1 /* BMAddressBookManager.m */,
+			);
+			path = BMAddressBookManager;
 			sourceTree = "<group>";
 		};
 		B4D3DC571E0CC4F7005D96C5 /* IQKeyboardManager */ = {
@@ -1039,12 +1039,12 @@
 				B4D3DC8D1E0CC4F7005D96C5 /* README.md in Sources */,
 				B4F2E8FF1DF114960036A3DE /* BWDataCommon.m in Sources */,
 				B452B91A1DEED0A800CA97FE /* BWResearchVC.m in Sources */,
+				B4C540071E23722500E216B1 /* BMAddressBookManager.m in Sources */,
 				B452B8DD1DEE8C9600CA97FE /* BMDateSettingView.m in Sources */,
 				B4F2E9021DF114960036A3DE /* BWUICommon.md in Sources */,
 				B452B9171DEED09B00CA97FE /* BWHomeVC.m in Sources */,
 				B48B5C491E2344410017AA77 /* BWCustomPickerView.m in Sources */,
 				B452B8F01DEEBD3900CA97FE /* UIImageView+BWExtension.m in Sources */,
-				B41094091E10E86500D59621 /* BWAddressBookManager.m in Sources */,
 				B452B9141DEED06600CA97FE /* BWBaseViewController.m in Sources */,
 				B41094191E10FC9600D59621 /* BWVerifyUtil.m in Sources */,
 				B452B8F11DEEBD3900CA97FE /* UILabel+BWExtension.m in Sources */,

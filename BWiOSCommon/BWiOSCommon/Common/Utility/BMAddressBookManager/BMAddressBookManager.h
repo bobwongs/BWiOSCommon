@@ -3,7 +3,7 @@
 //  BWObjective-CResearch-iOS
 //
 //  Created by BobWong on 16/12/26.
-//  Copyright © 2016年 BobWong. All rights reserved.
+//  Copyright © 2016年 BobWongStudio. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
