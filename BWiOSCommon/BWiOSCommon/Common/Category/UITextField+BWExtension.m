@@ -158,4 +158,13 @@ static NSString *kLimitTextLengthKey = @"kLimitTextLengthKey";
     return [BWVerifyUtil validateUserNameInputString:string];
 }
 
++ (BOOL)bw_textFieldText:(NSString *)textInTextField limitedLength:(NSUInteger)limitedLength shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
+    // 删除
+    if (text.length == 0) return YES;
+    // 逐个输入和考虑剪切进来的
+    if ([textInTextField stringByAppendingString:text].length > limitedLength) return NO;
+    
+    return YES;
+}
+
 @end

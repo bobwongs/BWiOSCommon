@@ -31,4 +31,6 @@
 
 + (BOOL)bw_userNameTextField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string;
 
++ (BOOL)bw_textFieldText:(NSString *)textInTextField limitedLength:(NSUInteger)limitedLength shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text;
+
 @end
