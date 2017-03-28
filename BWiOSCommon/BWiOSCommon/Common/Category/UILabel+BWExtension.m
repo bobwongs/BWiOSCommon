@@ -12,41 +12,36 @@
 
 #pragma mark - Create label
 
-+ (UILabel *)bw_labelSingleLineLeftAlignmentWithText:(NSString *)text {
-    
++ (UILabel *)bw_labelSingleLineWithText:(NSString *)text {
     UILabel *label = [[UILabel alloc] init];
     label.text = text;
     label.numberOfLines = 1;
+    return label;
+}
+
++ (UILabel *)bw_labelSingleLineLeftAlignmentWithText:(NSString *)text {
+    UILabel *label = [[self class] bw_labelSingleLineWithText:text];
     label.textAlignment = NSTextAlignmentLeft;
     return label;
 }
 
++ (UILabel *)bw_labelSingleLineCenterAlignmentWithText:(NSString *)text {
+    UILabel *label = [[self class] bw_labelSingleLineWithText:text];
+    label.textAlignment = NSTextAlignmentCenter;
+    return label;
+}
+
 + (UILabel *)bw_labelSingleLineRightAlignmentWithText:(NSString *)text {
-    UILabel *label = [[UILabel alloc] init];
-    label.text = text;
-    label.numberOfLines = 1;
+    UILabel *label = [[self class] bw_labelSingleLineWithText:text];
     label.textAlignment = NSTextAlignmentRight;
     return label;
 }
 
-+ (UILabel *)bw_labelSingleLineLeftAlignmentFontSize15ColorBlackWithText:(NSString *)text {
++ (UILabel *)bw_labelSingleLineLeftAlignmentWithFontSize:(CGFloat)fontSize color:(UIColor *)color text:(NSString *)text {
     UILabel *label = [UILabel bw_labelSingleLineLeftAlignmentWithText:text];
-    label.font = [UIFont systemFontOfSize:15.0];
-    label.textColor = [UIColor blackColor];
-    return label;
-}
-
-+ (UILabel *)bw_labelSingleLineLeftAlignmentFontSize15Color333333WithText:(NSString *)text {
-    UILabel *label = [UILabel bw_labelSingleLineLeftAlignmentWithText:text];
-    label.font = [UIFont systemFontOfSize:15.0];
-    label.textColor = [self colorWithHexString:@"333333"];
-    return label;
-}
-
-+ (UILabel *)bw_labelSingleLineLeftAlignmentFontSize15Color666666WithText:(NSString *)text {
-    UILabel *label = [UILabel bw_labelSingleLineLeftAlignmentWithText:text];
-    label.font = [UIFont systemFontOfSize:15.0];
-    label.textColor = [self colorWithHexString:@"666666"];
+    label.font = [UIFont systemFontOfSize:fontSize];
+    label.textColor = color;
+    label.text = text;
     return label;
 }
 

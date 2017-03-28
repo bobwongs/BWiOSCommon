@@ -8,24 +8,23 @@
 
 #import <Foundation/Foundation.h>
 
-// BWImportFileTemplate
-#import "<#imported_file#>"
-
 /**
  * Objective-C Comment
  */
 @interface BWObjective_CCodeSnippets : NSObject
 
-// BWPropertyPointerTypeTemplateCode
-@property (nonatomic, strong) <#DataType#> *<#member#>;  ///< <#Comments#>
+// BWPropertyPointerTypeStrongTemplateCode
+@property (strong, nonatomic) <#DataType#> *<#member#>;  ///< <#Comments#>
+// BWPropertyPointerTypeCopyTemplateCode
+@property (copy, nonatomic) <#DataType#> *<#member#>;  ///< <#Comments#>
 
 // BWPropertyValueTypeTemplateCode
-@property (nonatomic, assign) <#DataType#> <#member#>;  ///< <#Comments#>
+@property (assign, nonatomic) <#DataType#> <#member#>;  ///< <#Comments#>
 
 // BWPropertyBlockTypeTemplateCode
-@property (nonatomic, copy) <#ReturnType#>(^<#BlockName#>)(<#Parameters#>);  ///< <#Comments#>
+@property (copy, nonatomic) <#ReturnType#>(^<#BlockName#>)(<#Parameters#>);  ///< <#Comments#>
 
 // BWPropertyBlockTypeDefinitionTemplate
-@property (nonatomic, copy) <#BlockType#> <#block#>;  ///< <#Comments#>
+@property (copy, nonatomic) <#BlockType#> <#block#>;  ///< <#Comments#>
 
 @end

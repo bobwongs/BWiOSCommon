@@ -12,12 +12,12 @@
 
 #pragma mark - Create label
 
++ (UILabel *)bw_labelSingleLineWithText:(NSString *)text;
 + (UILabel *)bw_labelSingleLineLeftAlignmentWithText:(NSString *)text;
++ (UILabel *)bw_labelSingleLineCenterAlignmentWithText:(NSString *)text;
 + (UILabel *)bw_labelSingleLineRightAlignmentWithText:(NSString *)text;
 
-+ (UILabel *)bw_labelSingleLineLeftAlignmentFontSize15ColorBlackWithText:(NSString *)text;
-+ (UILabel *)bw_labelSingleLineLeftAlignmentFontSize15Color333333WithText:(NSString *)text;
-+ (UILabel *)bw_labelSingleLineLeftAlignmentFontSize15Color666666WithText:(NSString *)text;
++ (UILabel *)bw_labelSingleLineLeftAlignmentWithFontSize:(CGFloat)fontSize color:(UIColor *)color text:(NSString *)text;
 
 #pragma mark - Customize label style
 
