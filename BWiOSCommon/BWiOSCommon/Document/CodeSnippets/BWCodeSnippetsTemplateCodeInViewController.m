@@ -78,22 +78,10 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *cellId = <#@"Cell"#>;
-    <#TableViewCell#> *cell = [tableView dequeueReusableCellWithIdentifier:cellId];
-    if (!cell) {
-        cell = [[<#TableViewCell#> alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId];
-    }
+    <#TableViewCell#> *cell = [tableView dequeueReusableCellWithIdentifier:<#CellId#>];
+    <#Model#> *<#model#> = <#_dataSource[indexPath.row]#>;
     
     return cell;
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    [tableView deselectRowAtIndexPath:indexPath animated:NO];
-    <#Code#>
-}
-
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return <#CGFloat#>;
 }
 
 #pragma mark - Private Method
@@ -165,5 +153,36 @@
 }
 
 #pragma mark - Getter and Setter
+
+- (UITableView *)tableView
+{
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(<#x#>, <#y#>, <#width#>, <#height#>) style:UITableViewStylePlain];
+        _tableView.dataSource = self;
+        _tableView.delegate = self;
+        _tableView.separatorStyle = <#UITableViewCellSeparatorStyle#>;
+        _tableView.backgroundColor = <#UIColor *#>;
+        _tableView.estimatedRowHeight = <#CGFloat#>;
+        [_tableView registerClass:[<#TableViewCell#> class] forCellReuseIdentifier:<#CellId#>];
+        
+        // 下拉刷新
+        @weakify(self);
+        _tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+            @strongify(self);
+            
+            [self.tableView.mj_header beginRefreshing];
+            [self reloadListData];
+        }];
+        // 上拉加载
+        _tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingBlock:^{
+            @strongify(self);
+            
+            [self.tableView.mj_footer beginRefreshing];
+            [self loadNextPage];
+        }];
+        _tableView.mj_footer.automaticallyHidden = YES;
+    }
+    return _tableView;
+}
 
 @end
