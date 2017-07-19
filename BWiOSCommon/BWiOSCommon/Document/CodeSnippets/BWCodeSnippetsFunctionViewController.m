@@ -92,4 +92,40 @@
     
 }
 
+- (void)systemAlert {
+    // ---------- BWAlertSystemTemplate ----------
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:<#Title#> message:<#Message#> preferredStyle:UIAlertControllerStyleAlert];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"<#确定#>" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action){
+                                <#Confirm Action#>
+                                }]];
+    [alertController addAction:[UIAlertAction actionWithTitle:@"<#取消#>" style:UIAlertActionStyleCancel handler:nil]];
+    [self presentViewController:alertController animated:YES completion:nil];
+}
+
+- (void)pageListTableViewConfiguration {
+    /* ---------- BWTableViewPageListSettingTemplate ---------- */
+    self.tableView.rowHeight = <#CGFloat#>;
+    self.tableView.sectionHeaderHeight = <#CGFloat#>;
+    self.tableView.backgroundColor = <#UIColor *#>;
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([<#Cell#> class]) bundle:nil] forCellReuseIdentifier:<#CellId#>];
+    
+    // 下拉刷新
+    @weakify(self);
+    self.tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+        @strongify(self);
+        
+        [self.tableView.mj_header beginRefreshing];
+        [self loadDataWithLoading:NO];
+    }];
+    // 上拉加载
+    self.tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingBlock:^{
+        @strongify(self);
+        
+        [self.tableView.mj_footer beginRefreshing];
+        [self loadNextPage];
+    }];
+    self.tableView.mj_footer.automaticallyHidden = YES;
+    /* ---------- BWTableViewPageListSettingTemplate ---------- */
+}
+
 @end
